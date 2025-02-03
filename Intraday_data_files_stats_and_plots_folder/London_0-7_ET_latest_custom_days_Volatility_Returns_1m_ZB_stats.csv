@@ -1,8 +1,8 @@
 Volatility of Returns Statistic,"(Session:London 0-7 ET, Interval:1m, Symbol:ZB)"
 count,61.0
-mean,8.155737704918034
-std,3.7555969161667644
-min,2.5
+mean,8.188524590163935
+std,3.7138972504480043
+min,3.5
 10%,5.0
 25%,6.0
 50%,7.5
@@ -10,5 +10,5 @@ min,2.5
 95%,14.0
 99%,21.399999999999988
 max,26.5
-skewness,2.3225924845605617
-kurtosis,8.878624156953473
+skewness,2.4187469296400095
+kurtosis,9.254703842615234
