@@ -33,13 +33,13 @@ def GetMatrix(target_bps,target_hrs,interval,ticker_name,version='NA'):
     return version_dic
         
     
-
-
-
 class ProbabilityMatrix:
     def __init__(self, df):
         self.df = df
         self.N=len(df)
+        self.less_than_equal_percentile=None 
+        self.greater_than_percentile=None
+        self.greater_than_prob_matrix = None
 
     def _round_off(self,np_data):
       # Round off the decimal part to the nearest half
@@ -55,11 +55,6 @@ class ProbabilityMatrix:
       plt.title(f'Probability Distribution for BPS ({version}): {target_bps} bps in {target_hrs} hrs')
       plt.xlabel('Basis Points (bps)')
       plt.ylabel('Cumulative Probability')
-
-    # Set x-ticks based on standard deviation
-    #   plt.xticks(np.arange(round(bps_df['bps'].min()),
-    #                       round(bps_df['bps'].max()),
-    #                       round(bps_df['bps'].std())))
 
       # Get the probability (y-value) at 'current_bps' from KDE
       y_value=percentile/100
@@ -153,34 +148,54 @@ class ProbabilityMatrix:
       percentile = (bps_df['bps'] <= target_bps).mean() * 100
       print(f"Percentile (wrt all {version} movements) for {abs(target_bps)} bps: {percentile}%ile")
       percentiles = bps_df.describe(percentiles=[0.1,0.25, 0.5, 0.75, 0.9, 0.95, 0.99, 1])
-      print(percentiles)
       
       prob_matrix=self._calc_prob_matrix(prob_matrix_list,bps_movements,version)
-      print(prob_matrix)
+
       self.less_than_equal_percentile=percentile
       self.greater_than_percentile=100-percentile
       self.greater_than_prob_matrix = prob_matrix
       return self._plot_prob(bps_df,percentile,percentiles,target_bps,target_hrs,version)
 
 
+    def _calc_prob_matrix_helper(self, prob_matrix_list, unique_hrs_array, unique_bps_array):
+        # Convert to NumPy arrays and sort
+        unique_bps_array = np.sort(np.array(unique_bps_array))
+        unique_hrs_array = sorted(unique_hrs_array)
 
-    def _calc_prob_matrix_helper(self, prob_matrix_list, target_bps, hour):
-      # Find the corresponding bps movements for the current hour
-      total_bps = []
-      for dic in prob_matrix_list:
-          # Append all previous bps values to the total_bps list
-          total_bps.extend(list(dic.values())[0])  # Flatten by extending with the values
+        # Initialize an empty list for each hour (fixes shallow copy issue)
+        total_bps_array_for_all_hours = [[] for _ in unique_hrs_array]
 
-          # If the current dictionary key matches the target hour, break out of the loop
-          if list(dic.keys())[0] == hour:
-              break
+        # Find the corresponding BPS movements for every hour
+        total_bps = []
+        for dic in prob_matrix_list:
+            total_bps.extend(list(dic.values())[0])  # Flatten values
+            hour = list(dic.keys())[0]
+            
+            if hour in unique_hrs_array:
+                hour_index = unique_hrs_array.index(hour)
+                total_bps_array_for_all_hours[hour_index] = total_bps.copy()  # Store a copy
 
-      # Convert the bps movements into a DataFrame
-      bps_df = pd.DataFrame(total_bps, columns=['bps'])
+        # Store the percentiles for all hours
+        percentile_bps_array_for_all_hours = []
 
-      # Calculate the percentile for the current index (bps value)
-      percentile = (bps_df['bps'] <= target_bps).mean() * 100
-      return str(round(100-percentile,2))+'%' #make it 100-percentile
+        for total_bps in total_bps_array_for_all_hours:
+            # Convert total_bps to NumPy array
+            bps_values = np.array(total_bps)
+
+            # Compute percentiles for each unique BPS value
+            percentile_bps_array = 100 - np.array([
+                np.mean(bps_values <= target_bps) * 100
+                for target_bps in unique_bps_array
+            ])
+
+            # Round and convert to string format with '%'
+            percentile_bps_array = np.char.add(np.round(percentile_bps_array, 2).astype(str), '%')
+
+            # Append the computed array for this hour
+            percentile_bps_array_for_all_hours.append(percentile_bps_array)
+
+        return percentile_bps_array_for_all_hours
+
 
     def _calc_prob_matrix(self, prob_matrix_list, all_movements,version):
         # Unique movements (index) and hours (columns)
@@ -190,19 +205,19 @@ class ProbabilityMatrix:
         # Create an empty DataFrame for the probability matrix
         prob_matrix = pd.DataFrame(columns=all_hours, index=unique_bps)
 
-        # Apply the helper function to each cell in the DataFrame
-        for target_bps in unique_bps:
-            for hour in all_hours:
-                # For each cell, calculate the corresponding percentile and assign it directly to the matrix
-                prob_matrix.loc[target_bps, hour] = self._calc_prob_matrix_helper(prob_matrix_list, target_bps, hour)
-        prob_matrix.index.name=f'Pr(bps ({version}) > )'
+        # Apply the helper function to get percentile
+        percentile_bps_array=self._calc_prob_matrix_helper(prob_matrix_list, all_hours,unique_bps)
+        for index,col in enumerate(prob_matrix):
+          prob_matrix[col]=percentile_bps_array[index]
+        
+        prob_matrix.index.name=f'bps Pr(bps ({version}) > )'
         prob_matrix.columns.name=f'hrs'
         return prob_matrix
 
 
 if __name__=='__main__':
-   target_bps=3
-   target_hrs=24
+   target_bps=2
+   target_hrs=60
    interval='1h'
    ticker_name='ZN'
-   GetMatrix(target_bps,target_hrs,interval,ticker_name)
+   a=GetMatrix(target_bps,target_hrs,interval,ticker_name)
