@@ -11,3 +11,4 @@ pyvirtualdisplay #compulsory for selenium, add in workflow file too
 chromedriver-autoinstaller #compulsory for selenium,add in workflow file too
 bs4 #compulsory for selenium, add in workflow file too
 selenium
+tzlocal
