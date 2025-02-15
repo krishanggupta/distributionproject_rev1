@@ -3,7 +3,7 @@ import os
 import shutil #deleting directories
 import pandas as pd
 from intradaydata import Intraday
-from intradaydata_investing import Intraday_Investing
+from intradaydata_investing_github_actions import Intraday_Investing
 from preprocessing import ManipulateTimezone
 from tzlocal import get_localzone  # Automatically detects system timezone
 
