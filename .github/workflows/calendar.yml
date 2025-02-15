@@ -43,7 +43,7 @@ jobs:
     - name:  Check if both folders have files and commit changes
       run: |
           # Check if folders exist and contain files
-          if [ -d "Input_files" ] && [ "$(ls -A Input_files)" ]; then
+          if [ -d "Input_data" ] && [ "$(ls -A Input_data)" ]; then
             echo "Folders with files detected, committing changes"
             git add .
             git commit -m "Add new stats/plots folders and files created by Python script" || echo "No changes to commit"
