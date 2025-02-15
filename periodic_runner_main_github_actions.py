@@ -105,7 +105,8 @@ def _save_data(Intraday_data_files,
         print(finalcsv)
         finalcsv.drop_duplicates(inplace=True)
         finalcsv.dropna(inplace=True,how='all') 
-        finalcsv.index = pd.to_datetime(finalcsv.index)
+        if website=='yahoo finance': #default tz=utc.
+            finalcsv.index = pd.to_datetime(finalcsv.index,utc=True) #Yahoo finance by default converts the data into utc and prints.
         finalcsv.sort_index(inplace=True)
         finalcsv.drop_duplicates(inplace=True)
         finalcsv.dropna(inplace=True,how='all') 
