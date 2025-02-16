@@ -155,6 +155,3 @@ class Events:
 
     def save_sheet(self,sheet,name='combined.csv'):
         sheet.to_csv(name,index=False)
-
-    
-
