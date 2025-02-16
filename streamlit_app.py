@@ -204,13 +204,13 @@ else:
     default_version_index = 0 # Default to the first element
 
 
-t_i_pair=[]
-for t in unique_instruments:
-        for i in unique_intervals:
-                t_i_pair.append(t+'_'+i)
-for ti in t_i_pair:
-        if ti in [f.name for f in os.scandir(Intraday_data_files)]:
-                st.sidebar.text(f'Available Combination: {t_i.split('_')[0]}:{t_i.split('_')[1]}')
+# t_i_pair=[]
+# for t in unique_instruments:
+#         for i in unique_intervals:
+#                 t_i_pair.append(t+'_'+i)
+# for ti in t_i_pair:
+#         if ti in [f.name for f in os.scandir(Intraday_data_files)]:
+#                 st.sidebar.text(f'Available Combination: {t_i.split('_')[0]}:{t_i.split('_')[1]}')
                 
 
 #Define tabs:
