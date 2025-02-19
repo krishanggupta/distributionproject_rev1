@@ -315,7 +315,7 @@ class Returns:
             if skip_sessions==False:
                 plt.subplot(3, 2, i)
             if session == "All day":
-                all_volatility_df = self.get_daily_volatility_returns(filtered_df,bps_factor=16)
+                all_volatility_df = self.get_daily_volatility_returns(filtered_df,bps_factor=bps_factor)
                 session_returns = all_volatility_df["return"]
                 latest_custom_days_return = all_volatility_df.iloc[:].loc[  #-15
                     :, ["date", "return"]
