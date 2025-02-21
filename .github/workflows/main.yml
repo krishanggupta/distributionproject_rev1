@@ -44,6 +44,14 @@ jobs:
         git config --global user.name "krishangguptafibonacciresearch"  # Replace with your name
         git config --global user.email "krishanggupta@fibonacciresearch.in"  # Replace with your email
 
+
+    - name: Pull latest changes to avoid conflicts
+      run: |
+        git fetch origin main
+        git stash  # Temporarily saves local changes
+        git pull --rebase origin main || echo "No updates available"
+        git stash pop || echo "No stashed changes"
+
     - name: Check if both folders have files and commit changes
       run: |
         # Check if  folders exist and contain files
