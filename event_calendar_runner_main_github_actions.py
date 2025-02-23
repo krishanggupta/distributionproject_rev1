@@ -81,9 +81,9 @@ runner(OutputDirectory=OutputDirectory,
        TargetTimezone=TargetTimezone,
        SelectCountries=SelectCountries)
 
-SelectCountries =  ['US']
-TargetTimezone = {'EST':'UTC -5'}
-OutputDirectory='Input_data'
-runner(OutputDirectory=OutputDirectory,
-       TargetTimezone=TargetTimezone,
-       SelectCountries=SelectCountries)
+# SelectCountries =  ['US']
+# TargetTimezone = {'EST':'UTC -5'}
+# OutputDirectory='Input_data'
+# runner(OutputDirectory=OutputDirectory,
+#        TargetTimezone=TargetTimezone,
+#        SelectCountries=SelectCountries)
