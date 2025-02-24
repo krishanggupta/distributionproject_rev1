@@ -135,6 +135,7 @@ def scan_folder_and_calculate_returns(
         #print(csvdata.tail())
 
         (final_data, final_data_path) = _get_distribution_of_returns(
+            ticker_bps_factor,
             combined_excel_target_tz=final_events_data,
             processed_data_folder=processed_folder,
             pre_fed_data=[csvdata, tickersymbol],
@@ -142,12 +143,13 @@ def scan_folder_and_calculate_returns(
             myoutput_folder=output_folder,
             interval=tickerinterval,
             month_day_filter=[],#[12, 15, 31] 12: December, 15: Start Date, 31: End Date
-            bps_factor=ticker_bps_factor
+            
         )
         print(f"Processed files saved at: {final_data_path}")
         #print(final_data)
 
 def _get_distribution_of_returns(
+    bps_factor,
     mytickers='NotDefined',
     interval='NotDefined',
     start_intraday='NotDefined',
@@ -155,7 +157,7 @@ def _get_distribution_of_returns(
     combined_excel_target_tz='NotDefined',
     processed_data_folder='NotDefined',
     myoutput_folder="NotDefined",
-    bps_factor=16, #For ZN
+    
     
     skip_data_fetching=False,
     pre_fed_data="",
@@ -285,8 +287,15 @@ folder_events= 'Input_data'
 folder_input = Intraday_data_files
 folder_output = Intraday_data_files+'_stats_and_plots_folder'
 folder_processed = Intraday_data_files+'_processed_folder'
-
-
+ticker_match_tuple=(("ZN",'1m',16),
+                        ("ZN",'15m',16),
+                        ("ZN",'1h',16),
+                        ('ZN','1d',16),
+                        ("ZB",'1m',16),
+                        ("ZT",'1m',16),
+                        ("ZF",'1m',16),
+                        ('FGBL','1d',100)
+                        )
 
 if __name__ == "__main__":
     folder_events= 'Input_data'

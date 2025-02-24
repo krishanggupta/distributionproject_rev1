@@ -4,6 +4,8 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 import os
+from returns import Returns
+from returns_main import ticker_match_tuple
 
 def _calculate_return_bps(group):
         return (group["Close"].iloc[-1]-group["Open"].iloc[0]) * 16
@@ -36,7 +38,7 @@ def movement(movement_type, df):
     return df.reset_index(drop=True)
 
      
-def get_dataframe(interval='1h',ticker_name='ZN',folder='Intraday_data_files'):
+def get_dataframe(interval,ticker_name,folder):
     for file in os.scandir(folder):
        if file.is_file():
           if all(x in str(file.name) for x in [interval, ticker_name]) and file.name.endswith('.csv'):
@@ -45,45 +47,69 @@ def get_dataframe(interval='1h',ticker_name='ZN',folder='Intraday_data_files'):
               break
     return df
 
-def filter_dataframe(pre_df,filter_list="",day_dict="",timezone_column="",target_timezone=""):
+def filter_dataframe(pre_df,filter_list="",day_dict="",timezone_column="",target_timezone="",interval="",ticker=""):
     # Filters based on "US/Eastern Timezone" column at the end.
-    pre_df[timezone_column] = pd.to_datetime(pre_df.Datetime, errors='coerce')
-    pre_df[timezone_column] = pre_df[timezone_column].dt.tz_convert(target_timezone)
-
-    pre_df[f'Day as per {timezone_column}']=pre_df[timezone_column].dt.day_name()
+    if ticker not in ['FGBL']:
+        pre_df[timezone_column] = pd.to_datetime(pre_df['Datetime'], errors='coerce')
+        pre_df[timezone_column] = pre_df[timezone_column].dt.tz_convert(target_timezone)
+   
+    
     # Filter day and date
+    finaldf = []
     if filter_list:
-        condition=False
+        pre_df['session']="Not Allotted"
+
         for se in filter_list:
             start=se[0]
-            end=se[1]
-            day=day_dict[se]
-            
-            if day in ['Monday','Tuesday','Wednesday','Thursday','Friday','Saturday','Sunday']:
-                condition=condition | ( (pre_df[pre_df.columns[-2]].dt.hour>=start) & (pre_df[pre_df.columns[-2]].dt.hour<end) & (pre_df[pre_df.columns[-1]]==day))
-            
-            elif day=="":
-                condition=condition | ( (pre_df[pre_df.columns[-2]].dt.hour>=start) & (pre_df[pre_df.columns[-2]].dt.hour<end))
-            
-        pre_df=pre_df[condition]
+            next_time=se[1]
+            next_time+=1
+            if 'h' in interval:
+                start_times=pre_df[pre_df[pre_df.columns[-2]].dt.hour==start][pre_df.columns[-2]]
+                for index,time in enumerate(start_times):
+                    current_df=(pre_df[(pre_df[pre_df.columns[-2]] >= time) & 
+                                          (pre_df[pre_df.columns[-2]] < time + pd.Timedelta(hours=next_time))])
+                    current_df.loc[:,'session']=index
+                    finaldf.append(current_df)
 
-    # # Filter event list
-    # if event_val!="":
-    #     condition=False
-    #     event_val=[str(i).lower() for i in event_val]
-    #     for event in event_val:
-    #         condition|= (pre_df['Event'].str.strip().str.lower().eq(event))
-    
-    # pre_df=pre_df[condition] 
+            if 'm' in interval:
+                start_times=pre_df[pre_df[pre_df.columns[-2]].dt.minute==start][pre_df.columns[-2]]
+                for index,time in enumerate(start_times):
+                    current_df=(pre_df[(pre_df[pre_df.columns[-2]] >= time) & 
+                                          (pre_df[pre_df.columns[-2]] < time + pd.Timedelta(minutes=next_time))])
+                    current_df.loc[:,'session']=index
+                    finaldf.append(current_df)
 
+            if 'd' in interval:
+                pre_df['session']=pre_df.index
+                return pre_df.reset_index(drop=True)
+
+        
+        pre_df=pd.concat(finaldf)
+        pre_df=pre_df[pre_df['session']!="Not Allotted"]
+        pre_df.drop_duplicates(inplace=True)
+        pre_df.reset_index(drop=True,inplace=True)
+        
+    else:
+        pre_df['session']=pre_df.index
+        print(pre_df)
+            
     return pre_df.reset_index(drop=True)
 
-def calculate_stats_and_plots(df,name,version,check_movement):
+
+def calculate_stats_and_plots(df,name,version,check_movement,interval,ticker,target_column):
     my_df=df.copy()
     # Calculate Session Return close(last entru) - open(first entry)
-    returns = get_session_returns(my_df,name)
+    my_returns_object=Returns(output_folder='tab4_files',dataframe=df)
+    for tup in ticker_match_tuple:
+        if tup[0]==ticker:
+            bps_factor=tup[2]
+            break
+    if interval!='1d':
+        returns=my_returns_object.get_daily_returns(my_df,bps_factor,target_column,columns=[target_column,name])
+    else:
+        returns=my_returns_object.get_daily_returns(my_df,bps_factor,target_column,columns=[target_column,name])
+
     returns=movement(version,returns)
-    #returns['Session']=returns['Year'].astype(str)+'/'+returns['Month'].astype(str)
     print(f'{name} Session Returns: {returns}')
     
     # Calculate statistics for given scenario
@@ -102,7 +128,7 @@ def calculate_stats_and_plots(df,name,version,check_movement):
     # Plot the return probability along with ZScore
     plt.figure(figsize=(10, 6))
     sns.kdeplot(data=returns, x=f"{name}",cumulative=True,fill=True,color='blue')
-    #name=name.replace('Returns','Returns (Close - Open)')
+
     plt.title(f'{name}', fontdict={'fontsize': 8, 'fontweight': 'bold'})# 'fontname': 'Arial'})
     plt.xlabel('Return')
     plt.ylabel('Cumulative Probability')
@@ -164,6 +190,7 @@ def calculate_stats_and_plots(df,name,version,check_movement):
             fontsize=10,
         )
     plt.show()
+    
     custom_dic={}
     for key,val in zip(['df','stats','%<=','%>','zscore<=','plot'],
                        [returns,returns_stats,percentile,100-percentile,zscore,plt]):
@@ -171,5 +198,4 @@ def calculate_stats_and_plots(df,name,version,check_movement):
     return custom_dic
 
 if __name__=='__main__':
-    print(filter_dataframe(get_dataframe(),timezone_column='US/Eastern Timezone',
-                                                                    target_timezone='US/Eastern'))
+    print(filter_dataframe(get_dataframe(),timezone_column='US/Eastern Timezone',target_timezone='US/Eastern'))

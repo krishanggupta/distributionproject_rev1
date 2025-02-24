@@ -31,8 +31,6 @@ class Returns:
         self.dataframe = dataframe
         os.makedirs(self.output_folder, exist_ok=True)
 
-        self.bps_formula={'ZN':16, 'FGBL':100}
-
     def get_session(self, timestamp):
         hour = timestamp.hour
         # minute = timestamp.minute
@@ -110,29 +108,44 @@ class Returns:
     def _calculate_return_bps(self, group,bps_factor):
         return abs(group["Close"].iloc[-1]-group["Open"].iloc[0]) * bps_factor
 
-    def get_daily_session_returns(self, df,bps_factor):
-        returns = (
-            df.groupby([df["timestamp"].dt.date, "session"], group_keys=False)
-            .apply(self._calculate_return_bps, bps_factor=bps_factor,include_groups=False)
-            .reset_index()
-        )
-        returns.columns = ["date", "session", "return"]
+    def get_daily_session_returns(self, df,bps_factor,target_column='timestamp',columns='NA'):
+        
+        if columns=='NA':
+            returns = (
+                df.groupby([df[target_column].dt.date, "session"], group_keys=False)
+                .apply(self._calculate_return_bps, bps_factor=bps_factor,include_groups=False)
+                .reset_index()
+            )
+            returns.columns = ["date", "session", "return"]
+        else:
+            returns.columns=columns
         return returns
 
-    def get_daily_returns(self, df, bps_factor):
-        daily_returns_all = (
-            df.groupby(df["timestamp"].dt.date)
+    def get_daily_returns(self, df, bps_factor,target_column='timestamp',columns='NA'):
+        
+        if columns=='NA':
+            daily_returns_all = (
+            df.groupby(df[target_column].dt.date)
             .apply(self._calculate_return_bps,bps_factor)
             .reset_index()
         )
-        daily_returns_all.columns = ["date", "return"]
+            daily_returns_all.columns = ["date", "return"]
+        else:
+            daily_returns_all = (
+            df.groupby(df[target_column])
+                .apply(self._calculate_return_bps,bps_factor)
+                .reset_index()
+            )
+             
+            daily_returns_all.columns = columns
+
         return daily_returns_all
 
     def plot_daily_session_returns(self, filtered_df, tickersymbol_val, interval_val,bps_factor):
 
         start_date = (filtered_df["timestamp"].dt.date.tolist())[0]
         end_date = (filtered_df["timestamp"].dt.date.tolist())[-1]
-        #print(start_date, end_date)
+      
         sessions = self.sessions
 
         plt.figure(figsize=(24, 18))

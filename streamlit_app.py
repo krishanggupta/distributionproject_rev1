@@ -177,7 +177,6 @@ unique_versions=['Absolute','Up','Down']#Version drop-downs for Probability Matr
 latest_days=[14,30,60,120,240,'Custom'] 
 
 
-
 # The  default option when opening the app
 desired_interval = '1h'
 desired_instrument='ZN'
@@ -203,15 +202,6 @@ if desired_version in unique_versions:
 else:
     default_version_index = 0 # Default to the first element
 
-
-# t_i_pair=[]
-# for t in unique_instruments:
-#         for i in unique_intervals:
-#                 t_i_pair.append(t+'_'+i)
-# for ti in t_i_pair:
-#         if ti in [f.name for f in os.scandir(Intraday_data_files)]:
-#                 st.sidebar.text(f'Available Combination: {t_i.split('_')[0]}:{t_i.split('_')[1]}')
-                
 
 #Define tabs:
 with tab1:
@@ -520,7 +510,8 @@ with tab3:
         else:
             st.write("Please select 1h interval.")
 
-with tab4: #Protected tab
+with tab4:
+        # Protected tab
         # Add password
         PASSWORD = "distro" 
 
@@ -551,105 +542,62 @@ with tab4: #Protected tab
             # Use stored values from session state
             x = st.session_state.get("x", list(unique_intervals)[0])
             y = st.session_state.get("y", list(unique_instruments)[0])
-            if 'h' not in x:
-                st.write("Please select 1h interval.")
-                st.stop()
 
             st.title("Custom Filtering")
 
             # Default sessions:
-            mysessions=[('All day 0-24 ET' if s=='All day' else s) for s in unique_sessions]
-            default_session_index=mysessions.index('All day 0-24 ET')
             
             # Show the version dropdown
-            version_value = st.selectbox("Select Version",unique_versions.copy(),index=default_session_index,
+            version_value = st.selectbox("Select Version",unique_versions.copy(),index=default_version_index,
                                         key='tab4_v')
 
             # Select bps to analyse
             enter_bps=st.number_input(label="Enter the Observed movement in bps:",min_value=0.000,key='tab4_bps')
 
             # Select Multiple Sessions
-            selected_sessions = st.multiselect("Select Session",mysessions,default=['All day 0-24 ET'])
 
             # Add custom session via button
-            default_text=f'Distribution of bps ({version_value}) Returns {y} with interval of {x}'
+            default_text=f'Distribution of bps ({version_value}) Returns {y} with returns calculated for every {x}'
             finalname=default_text
             final_list=[]
             
+            filter_sessions=False
             
-            # Add custom session heading
-            st.subheader('Add Custom Session')
+            # Not include intervals
+            if 'd' not in x:
+                st.subheader('Add Custom Session')
+                tab4check=st.checkbox(label='Add Custom Session',key='tab4check')
 
-            # 1. User input for time
-            new_option_original = st.text_input("Enter a new option for Time in ET (Format: 3-12ET, 10-15ET, etc.):",value='0-5 ET,0-9 ET')
-            st.caption('Session spanning across 2 days like 21-4 ET shall be entered as 21-24 ET, 0-4 ET')
-            new_option_original=new_option_original.strip()
-            new_options=new_option_original.replace('ET','')
-            new_options=new_options.split(',')
-            try:
-                if len(new_options)>0:
-                    final_list=[(int(se.split('-')[0]), int(se.split('-')[1])) for se in new_options]
-                else:
-                    final_list=[]
-            except Exception as e:
-                pass
+                if tab4check==True:
+                    # Select Start time in ET
+                    enter_start=st.number_input(label="Enter the start time in ET",min_value=0, max_value=23, step=1)
+                    st.caption("Note: The value must be an integer and increase in steps of 1. Eg 1, 2, 3, 4, etc.")
 
-           
-     
-            # Combine default and custom time filters. filter_sessions1=default, filter_sessions2=custom
-            filter_sessions1=[]
-            for my_selection in selected_sessions:
-                session_val=list((str(my_selection)).split())[-2] #'0-7'
-                session_val=session_val.split('-') #['0','7']
-                filter_sessions1.append((int(session_val[0]),int(session_val[1])))
 
-            filter_sessions2=[]
-            filter_sessions2+=final_list
+                    # Select number of hours to analyse post the start time
+                    enter_hrs=st.number_input(label=f"Enter the time (multiple of {x}) to be searched post the selected time",min_value=0, step=1)
+                    st.caption("Note: The value must be an integral multiple of the interval selected")
 
-            # Combine the two
-            filter_sessions=list(set(filter_sessions1+filter_sessions2))
-
-            # Declare empty dict to store days as values to time as keys
-            time_day_dict={}
-            if filter_sessions:
-                st.text(f'Selected Sessions: {filter_sessions}')
-                try:
-                    if len(new_options)>0:
-                        final_list=[(int(se.split('-')[0]), int(se.split('-')[1])) for se in new_options]
-                    else:
-                        final_list=[]
-                except Exception as e:
-                    pass
-
-            # 2. User input for days
-                time_day_dict={}
-                for k in filter_sessions:
-                    time_day_dict[k]=""
-                new_day_original= st.text_input("Enter a new option for corrsponding day (Format: Monday, Tuesday....) with respective Time selection(s) being shown above.")
-                new_day_original=new_day_original.strip()
-                day_val=new_day_original.split(',')
-                for k,d in zip(filter_sessions,day_val):
-                    time_day_dict[k]=d
-
-                st.text(f'Selected Days corresponding to above Time period(s):{time_day_dict}')
+        
+                # Combine default and custom time filters. filter_sessions1=default, filter_sessions2=custom
+                    filter_sessions1=[]
+                    filter_sessions2=[]
+                    filter_sessions1.append((enter_start,enter_hrs))
+            
+                # Combine the two
+                    filter_sessions=list(set(filter_sessions1+filter_sessions2))
 
             # Give the name to include ticker,interval,time,day,start_date and end_date.
-            finalname=f'{default_text} for sessions:{", ".join(selected_sessions+ list(set([str(i[0])+'-'+str(i[1])+f'ET' for i in filter_sessions2])))}'
-
-
-            # # 3.  User input for event filtering (independent of time and day)
-            # st.text_input('Enter the specific event keywords you are looking for:')
-            # new_event_original= st.text_input("Enter a new option for an event in comma separated format. (Format: PMI, Auctions,)")
-            # st.caption('The events get filtered based on the keywords you enter.')
-            # new_event_original=new_event_original.strip()
-            # event_val=new_event_original.split(',')
-            # st.text(f'Selected Events :{event_val}')
-
+            if filter_sessions==False:
+                filename=default_text
+            else:
+                mysession=f'{filter_sessions[0][0]} ET +{filter_sessions[0][1]} hrs'
+                finalname=f'{default_text} for session:{mysession}'
 
             # Select the dataframe for Hour interval
-            selected_df=custom_filtering_dataframe.get_dataframe(interval=x,ticker_name=y,folder=Intraday_data_files)
+            selected_df=custom_filtering_dataframe.get_dataframe(x,y,Intraday_data_files)
 
-            #Extract start and end dates
+            # Extract start and end dates
             finalcsv=selected_df.copy()
             finalcsv.index=finalcsv[finalcsv.columns[-1]]
             finalcsv.drop_duplicates(inplace=True)
@@ -659,41 +607,53 @@ with tab4: #Protected tab
             finalstart=str(finalcsv.index.to_list()[0])[:10]
             finalend=str(finalcsv.index.to_list()[-1])[:10]
 
+
             if filter_sessions:
                 # Filter the dataframe as per selections
                 filtered_df=custom_filtering_dataframe.filter_dataframe(selected_df,
                                                                         filter_sessions,
-                                                                        time_day_dict,
+                                                                        day_dict="",#time_day_dict,
                                                                         timezone_column='US/Eastern Timezone',
-                                                                        target_timezone='US/Eastern')
+                                                                        target_timezone='US/Eastern',
+                                                                        interval=x,
+                                                                        ticker=y)
                 finalname+=f' for dates:{finalstart} to {finalend}'
+                # Stats and Plots
+                stats_plots_dict=custom_filtering_dataframe.calculate_stats_and_plots(filtered_df,
+                                                                    finalname,
+                                                                    version=version_value,
+                                                                    check_movement=enter_bps,
+                                                                    interval=x,
+                                                                    ticker=y,
+                                                                    target_column='session')
 
             else:
                 finalname=f'{default_text} for dates:{finalstart} to {finalend}'
                 filtered_df=custom_filtering_dataframe.filter_dataframe(selected_df,
                                                                         "",
                                                                         "",
-                                                                        
-                                                                        timezone_column='US/Eastern Timezone',
-                                                                        target_timezone='US/Eastern')
+                                                                        'US/Eastern Timezone',
+                                                                        'US/Eastern',
+                                                                        x,
+                                                                        y)
+                # Stats and Plots
+                stats_plots_dict=custom_filtering_dataframe.calculate_stats_and_plots(filtered_df,
+                                                                    finalname,
+                                                                    version=version_value,
+                                                                    check_movement=enter_bps,
+                                                                    interval=x,
+                                                                    ticker=y,
+                                                                    target_column='US/Eastern Timezone')
 
-
-            # Stats and Plots
-            stats_plots_dict=custom_filtering_dataframe.calculate_stats_and_plots(filtered_df,
-                                                                finalname,
-                                                                version=version_value,
-                                                                check_movement=enter_bps)
+  
             
             # Add Widgets:
             # Dataframe
             st.subheader('Filtered Dataframe')
             st.text(f'Ticker: {y}')
             st.text(f'Interval: {x}')
-            st.text(f'Sessions: {", ".join(selected_sessions + list(set([str(i[0])+'-'+str(i[1])+'ET'+f':{time_day_dict[i]}' for i in filter_sessions2])))}')
-            st.text(f'Corresponding Days:{time_day_dict}')
             st.text(f'Dates: {finalstart} to {finalend}')
             st.dataframe(filtered_df,use_container_width=True)
-
 
 
             # Display the  stats dataframe
@@ -712,13 +672,16 @@ with tab4: #Protected tab
             prob_df.loc[len(prob_df)] =[f'ZScore for ({version_value}) bps <=  {enter_bps} bps',
                             str((stats_plots_dict['zscore<=']))]
         
+
             # Display the probability dataframe
             st.dataframe(prob_df,use_container_width=True)
+
 
             # Display the probability plot
             st.subheader(f"Probability Plot for {enter_bps} bps ({version_value}) movement")
             st.pyplot(stats_plots_dict['plot'])
         
+
             # Combine the DataFrames into an Excel file (Convert datetime values to text)
             filtered_df[filtered_df.columns[-1]]=filtered_df[filtered_df.columns[-1]].astype(str)
             filtered_df[filtered_df.columns[-2]]=filtered_df[filtered_df.columns[-2]].astype(str)
@@ -748,18 +711,3 @@ with tab4: #Protected tab
                     file_name=f"Probability Plot.png",
                     mime="image/png"
                 )
-
-            
-
-
-
-        
-            
-
-            
-
-
-
-
-            
-
