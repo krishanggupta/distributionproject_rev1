@@ -10,6 +10,10 @@ from concurrent.futures import ThreadPoolExecutor
 from probability_matrix import GetMatrix,ProbabilityMatrix
 import custom_filtering_dataframe
 from returns_main import Intraday_data_files,folder_processed
+import re
+from datetime import datetime
+import matplotlib.pyplot as plt
+import seaborn as sns
 
 
 st.cache_data.clear()
@@ -109,10 +113,11 @@ st.set_page_config(
 )
 
 # Setting up tabs
-tab1, tab2, tab3,tab4 = st.tabs(["Session and Volatility Returns for all sessions", 
+tab1, tab2, tab3,tab4,tab5 = st.tabs(["Session and Volatility Returns for all sessions", 
                                  "Latest X days of Volatility Returns for each session",
                                  "Probability Matrix",
-                                 "Custom Normalised Returns"])
+                                 "Custom Normalised Returns",
+                                 'Event Specific Distro'])
 
 
 # Defining GitHub Repo
@@ -711,3 +716,123 @@ with tab4:
                     file_name=f"Probability Plot.png",
                     mime="image/png"
                 )
+
+with tab5:
+        events = ['core inflation rate']
+        selected_event = st.selectbox("Select an event:" , events)
+        duration = ['pre event' , 'during event' , 'post event']
+        dur = st.selectbox("Select duration: " , duration)
+
+        # getting the data for the timestamps of the event
+        fname='ZN_1h_events_tagged_target_tz.csv'
+        repo_name='DistributionProject'
+        branch='main'
+        plots_directory="Intraday_data_files_processed_folder"
+        link=f"https://raw.githubusercontent.com/krishangguptafibonacciresearch/{repo_name}/{branch}/{plots_directory}/{fname}"
+
+        df=pd.read_csv(link)
+
+        # Get days
+        df['US/Eastern Timezone']=pd.to_datetime(df.timestamp,errors='coerce',utc=True)
+        df['US/Eastern Timezone']=df['US/Eastern Timezone'].dt.tz_convert('US/Eastern')
+        df['pre_time']=df['US/Eastern Timezone']-pd.Timedelta(hours = 8)
+        df_events=df
+        df_events.events=df_events.events.astype(str)
+
+        event_timestamps = df_events.loc[df_events['events'].str.strip().str.lower().str.contains(selected_event , case=False, na=False)]
+        event_timestamps = event_timestamps.drop_duplicates(subset=['pre_time'], keep='first')
+        cutoff_time = pd.to_datetime('2022-12-20 00:00:00-05:00', utc=True)
+        event_timestamps = event_timestamps[event_timestamps['US/Eastern Timezone'] >= cutoff_time]
+
+        # finding the price movements:
+
+        repo_name = "DistributionProject"
+        branch = "main"
+        plots_directory2 = "Intraday_data_files"
+
+        # GitHub API URL to list contents of the directory
+        api_url = f"https://api.github.com/repos/krishangguptafibonacciresearch/{repo_name}/contents/{plots_directory2}?ref={branch}"
+
+        # Regular expression to match file pattern
+        pattern = re.compile(r"Intraday_data_ZN_1h_2022-12-20_to_(\d{4}-\d{2}-\d{2})\.csv")
+
+        # Fetch file list from GitHub
+        response = requests.get(api_url)
+        if response.status_code != 200:
+            print("Failed to retrieve file list:", response.json())
+            exit()
+
+        # Extract filenames and find the latest date
+        files = response.json()
+        matching_files = []
+
+        for file in files:
+            filename = file["name"]
+            match = pattern.match(filename)
+            if match:
+                date_str = match.group(1)
+                try:
+                    file_date = datetime.strptime(date_str, "%Y-%m-%d")
+                    matching_files.append((file_date, filename))
+                except ValueError:
+                    continue
+        if matching_files:
+            latest_fname2 = max(matching_files)[1]
+            link2 = f"https://raw.githubusercontent.com/krishangguptafibonacciresearch/{repo_name}/{branch}/{plots_directory2}/{latest_fname2}"
+        else:
+            print("No matching files found.")
+
+        df2=pd.read_csv(link2)
+        df2['US/Eastern Timezone']=pd.to_datetime(df2.Datetime,errors='coerce',utc=True)
+        df2['US/Eastern Timezone']=df2['US/Eastern Timezone'].dt.tz_convert('US/Eastern')
+        df2.head()
+
+        final_df=pd.DataFrame()
+        vol_ret = []
+        abs_ret = []
+        ret = []
+
+        for end , start in zip(event_timestamps['US/Eastern Timezone'], event_timestamps['pre_time']):
+            temp_df = df2[(df2['US/Eastern Timezone'] >= start) & (df2['US/Eastern Timezone'] <= end)]
+            vol_ret.append((temp_df['High'].max() - temp_df['Low'].min())*16)
+            abs_ret.append(abs(temp_df['Close'].iloc[-1] - temp_df['Open'].iloc[0])*16)
+            ret.append((temp_df['Close'].iloc[-1] - temp_df['Open'].iloc[0])*16)
+
+        final_df['Volatility Return'] = vol_ret
+        final_df['Absolute Return'] = abs_ret
+        final_df['Return'] = ret
+
+        figures = {}
+
+        for col in final_df.columns:
+            fig, ax = plt.subplots(figsize=(6, 4))  # Create figure
+            sns.histplot(final_df[col], kde=True, stat="density", linewidth=0, color="skyblue", ax=ax)
+            sns.kdeplot(final_df[col], color="darkblue", linewidth=2, ax=ax)
+
+            # Add statistics text box
+            stats = final_df[col].describe()
+            textstr = f"Mean: {stats['mean']:.2f}\nStd: {stats['std']:.2f}\nMin: {stats['min']:.2f}\nMax: {stats['max']:.2f}"
+            ax.text(0.75, 0.75, textstr, transform=ax.transAxes, fontsize=10, 
+                    verticalalignment='top', bbox=dict(boxstyle='round,pad=0.3', edgecolor='black', facecolor='white'))
+
+            ax.set_xlabel("Value")
+            ax.set_ylabel("Frequency")
+            ax.set_title(f"{col}")
+
+            figures[col] = fig  # Store figure
+            
+        st.title("Distribution Analysis")
+        col1, col2, col3 = st.columns(3)
+
+        # Display each figure in a separate column
+        with col1:
+            st.pyplot(figures["Volatility Return"])
+            st.write("**Volatility Return**")
+
+        with col2:
+            st.pyplot(figures["Absolute Return"])
+            st.write("**Absolute Return**")
+
+        with col3:
+            st.pyplot(figures["Return"])
+            st.write("**Return**")
