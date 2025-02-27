@@ -183,7 +183,7 @@ def plot(final_df):
     
 # Setting up page configuration
 st.set_page_config(
-    page_title="FR Live Plots",
+    page_title="Financial Market Analysis",
     page_icon="📊",
     layout="wide",
     initial_sidebar_state="expanded",
