@@ -1,7 +1,7 @@
 Volatility of Returns Statistic,"(Session:All day, Interval:1m, Symbol:ZT)"
 count,109.0
-mean,2.157683464220185
-std,1.6806831654594891
+mean,2.1582568587155975
+std,1.6808977635064344
 min,0.375
 10%,0.6875
 25%,1.125
@@ -10,5 +10,5 @@ min,0.375
 95%,5.3125
 99%,8.485
 max,8.625
-skewness,2.0761514546465616
-kurtosis,4.81422133924533
+skewness,2.074458796091831
+kurtosis,4.807324458725791
