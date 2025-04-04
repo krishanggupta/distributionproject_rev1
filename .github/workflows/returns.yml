@@ -28,14 +28,14 @@ jobs:
         df -h
 
     - name: Check out repository
-      uses: actions/checkout@v3  # Use v3 for the latest version
+      uses: actions/checkout@v3
       with:
-        fetch-depth: 0  
+        fetch-depth: 0
 
     - name: Set up Python
       uses: actions/setup-python@v4
       with:
-        python-version: '3.12'  # Use pre-installed cached version
+        python-version: '3.12'
 
     - name: Install dependencies manually
       run: |
@@ -52,7 +52,7 @@ jobs:
     - name: Pull latest changes
       run: |
         git fetch origin main
-        git pull --rebase origin main || echo "No changes available"
+        git pull --rebase origin main || echo "No changes to pull or rebase already up-to-date"
 
     - name: Check if Intraday_data_files_stats_and_plots_folder has files and commit changes
       run: |
@@ -60,6 +60,11 @@ jobs:
           echo "Files detected, committing changes..."
           git add .
           git commit -m "Automated update of Intraday_data_files_stats_and_plots_folder" || echo "No changes to commit"
+
+          echo "Pulling again before pushing to avoid non-fast-forward error..."
+          git pull --rebase origin main || echo "Rebase failed or not required"
+
+          echo "Pushing changes..."
           git push origin main
         else
           echo "No new files detected, skipping commit"
