@@ -1442,18 +1442,32 @@ DATETIME,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-04 21:30:00+05:30,Fed Barr Speech,,,,,2.0
 2025-04-04 22:15:00+05:30,Fed Waller Speech,,,,,2.0
 2025-04-04 22:30:00+05:30,Baker Hughes Total Rigs CountAPR/04,,592,,,3.0
+<<<<<<< Updated upstream
 2025-04-04 22:30:00+05:30,Baker Hughes Total Rigs CountAPR/04,590,592,,,3.0
 2025-04-04 22:30:00+05:30,Baker Hughes Oil Rig CountAPR/04,489,484,483,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-04 22:30:00+05:30,Baker Hughes Oil Rig CountAPR/04,,484,483,,3.0
+2025-04-04 22:30:00+05:30,Baker Hughes Total Rigs CountAPR/04,590,592,,,3.0
+2025-04-04 22:30:00+05:30,Baker Hughes Oil Rig CountAPR/04,489,484,483,,3.0
+2025-04-07 19:15:00+05:30,Used Car Prices YoYMAR,-0.2%,0.1%,,,3.0
+2025-04-07 19:15:00+05:30,Used Car Prices MoMMAR,-0.7%,-0.7%,,,3.0
 2025-04-07 20:00:00+05:30,Fed Kugler Speech,,,,,2.0
 2025-04-07 20:00:00+05:30,Fed Kugler Speech,,,,,2.0
 2025-04-07 21:00:00+05:30,Used Car Prices YoYMAR,,0.1%,,,3.0
+<<<<<<< Updated upstream
 2025-04-07 21:00:00+05:30,Used Car Prices MoMMAR,,-0.7%,,,3.0
 2025-04-07 21:00:00+05:30,3-Month Bill Auction,,4.205%,,,3.0
 2025-04-07 21:00:00+05:30,6-Month Bill Auction,,4.070%,,,3.0
 2025-04-07 21:00:00+05:30,Used Car Prices MoMMAR,,-0.7%,,,3.0
 2025-04-07 21:00:00+05:30,3-Month Bill Auction,,4.205%,,,3.0
 2025-04-07 21:00:00+05:30,Used Car Prices YoYMAR,,0.1%,,,3.0
+=======
+2025-04-07 21:00:00+05:30,3-Month Bill Auction,,4.205%,,,3.0
+2025-04-07 21:00:00+05:30,Used Car Prices MoMMAR,,-0.7%,,,3.0
+2025-04-07 21:00:00+05:30,3-Month Bill Auction,,4.205%,,,3.0
+2025-04-07 21:00:00+05:30,6-Month Bill Auction,,4.070%,,,3.0
+>>>>>>> Stashed changes
 2025-04-07 21:00:00+05:30,6-Month Bill Auction,,4.070%,,,3.0
 2025-04-08 00:30:00+05:30,Consumer Credit ChangeFEB,,$18.08B,$15.2B,$15.0B,3.0
 2025-04-08 00:30:00+05:30,Consumer Credit ChangeFEB,,$18.08B,$15.2B,$15.0B,3.0
@@ -1494,8 +1508,12 @@ DATETIME,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-09 20:00:00+05:30,EIA Crude Oil Stocks ChangeAPR/04,,6.165M,,,2.0
 2025-04-09 20:00:00+05:30,EIA Distillate Fuel Production ChangeAPR/04,,0.164M,,,3.0
 2025-04-09 20:00:00+05:30,EIA Crude Oil Imports ChangeAPR/04,,0.999M,,,3.0
-2025-04-09 20:00:00+05:30,EIA Cushing Crude Oil Stocks ChangeAPR/04,,2.373M,,,3.0
 2025-04-09 20:00:00+05:30,EIA Gasoline Production ChangeAPR/04,,0.062M,,,3.0
+2025-04-09 20:00:00+05:30,EIA Cushing Crude Oil Stocks ChangeAPR/04,,2.373M,,,3.0
+<<<<<<< Updated upstream
+2025-04-09 20:00:00+05:30,EIA Gasoline Production ChangeAPR/04,,0.062M,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-09 20:00:00+05:30,EIA Gasoline Stocks ChangeAPR/04,,-1.551M,,,2.0
 2025-04-09 21:00:00+05:30,17-Week Bill Auction,,4.200%,,,3.0
 2025-04-09 21:00:00+05:30,17-Week Bill Auction,,4.200%,,,3.0
@@ -1506,16 +1524,30 @@ DATETIME,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-09 23:30:00+05:30,FOMC Minutes,,,,,1.0
 2025-04-09 23:30:00+05:30,FOMC Minutes,,,,,1.0
 2025-04-10 18:00:00+05:30,Continuing Jobless ClaimsMAR/29,,1903K,,1915.0K,3.0
+<<<<<<< Updated upstream
+=======
+2025-04-10 18:00:00+05:30,Jobless Claims 4-week AverageAPR/05,,223K,,226.0K,3.0
+2025-04-10 18:00:00+05:30,CPI s.aMAR,,319.775,,320.1,2.0
+2025-04-10 18:00:00+05:30,CPIMAR,,319.082,,320.1,2.0
+2025-04-10 18:00:00+05:30,Inflation Rate YoYMAR,,2.8%,2.6%,2.5%,1.0
+2025-04-10 18:00:00+05:30,Core Inflation Rate YoYMAR,,3.1%,3%,3.0%,1.0
+2025-04-10 18:00:00+05:30,Core Inflation Rate MoMMAR,,0.2%,0.3%,0.3%,1.0
+2025-04-10 18:00:00+05:30,Initial Jobless ClaimsAPR/05,,219K,224K,226.0K,2.0
+2025-04-10 18:00:00+05:30,Inflation Rate MoMMAR,,0.2%,0.2%,0.1%,1.0
+>>>>>>> Stashed changes
 2025-04-10 18:00:00+05:30,Jobless Claims 4-week AverageAPR/05,,223K,,226.0K,3.0
 2025-04-10 18:00:00+05:30,CPI s.aMAR,,319.775,,320.1,2.0
 2025-04-10 18:00:00+05:30,CPIMAR,,319.082,,320.1,2.0
 2025-04-10 18:00:00+05:30,Inflation Rate MoMMAR,,0.2%,0.2%,0.1%,1.0
 2025-04-10 18:00:00+05:30,Core Inflation Rate YoYMAR,,3.1%,3%,3.0%,1.0
+<<<<<<< Updated upstream
 2025-04-10 18:00:00+05:30,Core Inflation Rate MoMMAR,,0.2%,0.3%,0.3%,1.0
 2025-04-10 18:00:00+05:30,Initial Jobless ClaimsAPR/05,,219K,224K,226.0K,2.0
 2025-04-10 18:00:00+05:30,Inflation Rate YoYMAR,,2.8%,2.6%,2.5%,1.0
 2025-04-10 18:00:00+05:30,Jobless Claims 4-week AverageAPR/05,,223K,,226.0K,3.0
 2025-04-10 18:00:00+05:30,Core Inflation Rate YoYMAR,,3.1%,3%,3.0%,1.0
+=======
+>>>>>>> Stashed changes
 2025-04-10 18:00:00+05:30,Continuing Jobless ClaimsMAR/29,,1903K,,1915.0K,3.0
 2025-04-10 18:00:00+05:30,Initial Jobless ClaimsAPR/05,,219K,224K,226.0K,2.0
 2025-04-10 18:00:00+05:30,CPI s.aMAR,,319.775,,320.1,2.0

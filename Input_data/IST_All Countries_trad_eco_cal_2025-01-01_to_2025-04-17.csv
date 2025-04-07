@@ -2480,6 +2480,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-03 22:00:00+05:30,ES,New Car Sales YoYFEB,,5.3%,,1.5%,3.0
 2025-03-03 22:00:00+05:30,US,6-Month Bill Auction,4.135%,4.180%,,,3.0
 2025-03-03 22:00:00+05:30,ZA,Total New Vehicle SalesFEB,,46.4K,,47.0K,3.0
+<<<<<<< Updated upstream
 2025-03-03 22:05:00+05:30,BR,Federal Tax RevenuesJAN,,BRL261.3B,,,2.0
 2025-03-03 22:05:00+05:30,IT,New Car Registrations YoYFEB,,-5.9%,,-4.3%,2.0
 2025-03-03 22:05:00+05:30,BR,BCB Focus Market Readout,,,,,2.0
@@ -2487,6 +2488,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-03 22:05:00+05:30,US,Fed Musalem Speech,,,,,2.0
 2025-03-03 22:05:00+05:30,ZA,Total New Vehicle SalesFEB,,46.4K,,47.0K,2.0
 2025-03-03 22:05:00+05:30,ES,New Car Sales YoYFEB,,5.3%,,1.5%,2.0
+=======
+2025-03-03 22:05:00+05:30,ES,Consumer ConfidenceJAN,,85,,86,2.0
+2025-03-03 22:05:00+05:30,IT,New Car Registrations YoYFEB,,-5.9%,,-4.3%,2.0
+2025-03-03 22:05:00+05:30,BR,BCB Focus Market Readout,,,,,2.0
+2025-03-03 22:05:00+05:30,BR,Federal Tax RevenuesJAN,,BRL261.3B,,,2.0
+2025-03-03 22:05:00+05:30,US,Fed Musalem Speech,,,,,2.0
+2025-03-03 22:05:00+05:30,ES,New Car Sales YoYFEB,,5.3%,,1.5%,2.0
+2025-03-03 22:05:00+05:30,ZA,Total New Vehicle SalesFEB,,46.4K,,47.0K,2.0
+>>>>>>> Stashed changes
 2025-03-03 22:05:00+05:30,AU,CoreLogic Dwelling Prices MoMFEB,0.3%,0.0%,,0.2%,2.0
 2025-03-03 22:30:00+05:30,IT,New Car Registrations YoYFEB,-6.3%,-5.9%,,-4.3%,3.0
 2025-03-04 04:30:00+05:30,KR,Retail Sales MoMJAN,-0.6%,0.2%,,0.4%,3.0
@@ -3724,9 +3734,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-25 15:30:00+05:30,ES,Consumer ConfidenceFEB,,84.9,,84.4,3.0
 2025-03-25 15:30:00+05:30,GB,20-Year Treasury Gilt Auction,,4.836%,,,3.0
 2025-03-25 16:00:00+05:30,DE,5-Year Bobl Auction,,2.15%,,,3.0
+<<<<<<< Updated upstream
 2025-03-25 16:30:00+05:30,AU,2025–26 Federal Budget,,,,,2.0
 2025-03-25 16:30:00+05:30,BR,BCB Copom Meeting Minutes,,,,,2.0
 2025-03-25 16:30:00+05:30,GB,CBI Distributive TradesMAR,,-23,-28,-30,2.0
+=======
+2025-03-25 16:30:00+05:30,GB,CBI Distributive TradesMAR,,-23,-28,-30,2.0
+2025-03-25 16:30:00+05:30,BR,BCB Copom Meeting Minutes,,,,,2.0
+2025-03-25 16:30:00+05:30,AU,2025–26 Federal Budget,,,,,2.0
+>>>>>>> Stashed changes
 2025-03-25 16:30:00+05:30,ES,Consumer ConfidenceFEB,,84.9,,84.4,2.0
 2025-03-25 16:30:00+05:30,BR,FGV Consumer ConfidenceMAR,,83.6,,83,3.0
 2025-03-25 17:30:00+05:30,MX,Retail Sales YoYJAN,,-0.2%,,0.7%,3.0
@@ -3739,10 +3755,17 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-25 18:10:00+05:30,US,Fed Kugler Speech,,,,,2.0
 2025-03-25 18:25:00+05:30,US,Redbook YoYMAR/22,,5.2%,,,3.0
 2025-03-25 18:30:00+05:30,ES,Consumer ConfidenceFEB,,84.9,,84.4,3.0
+<<<<<<< Updated upstream
 2025-03-25 18:30:00+05:30,US,Building Permits FinalFEB,,,,,3.0
 2025-03-25 18:30:00+05:30,US,S&P/Case-Shiller Home Price MoMJAN,,-0.1%,0.2%,0.1%,3.0
 2025-03-25 18:30:00+05:30,US,House Price Index MoMJAN,,0.4%,,0.3%,3.0
 2025-03-25 18:30:00+05:30,US,S&P/Case-Shiller Home Price YoYJAN,,4.5%,4.6%,4.5%,2.0
+=======
+2025-03-25 18:30:00+05:30,US,S&P/Case-Shiller Home Price YoYJAN,,4.5%,4.6%,4.5%,2.0
+2025-03-25 18:30:00+05:30,US,S&P/Case-Shiller Home Price MoMJAN,,-0.1%,0.2%,0.1%,3.0
+2025-03-25 18:30:00+05:30,US,House Price Index MoMJAN,,0.4%,,0.3%,3.0
+2025-03-25 18:30:00+05:30,US,Building Permits FinalFEB,,,,,3.0
+>>>>>>> Stashed changes
 2025-03-25 18:30:00+05:30,US,House Price Index YoYJAN,,4.7%,,4.7%,3.0
 2025-03-25 18:30:00+05:30,AU,2025–26 Federal Budget,,,,,3.0
 2025-03-25 18:30:00+05:30,US,House Price IndexJAN,,436.1,,437.4,3.0
@@ -3760,9 +3783,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-25 19:30:00+05:30,US,Richmond Fed Manufacturing Shipments IndexMAR,,12,,2,3.0
 2025-03-25 21:00:00+05:30,US,6-Week Bill Auction,,4.235%,,,3.0
 2025-03-25 22:30:00+05:30,ES,Consumer ConfidenceFEB,,84.9,,84.4,3.0
+<<<<<<< Updated upstream
 2025-03-25 22:30:00+05:30,US,Money SupplyFEB,,$21.56T,,,3.0
 2025-03-25 22:30:00+05:30,AU,2025–26 Federal Budget,,,,,3.0
 2025-03-25 22:30:00+05:30,US,Building Permits FinalFEB,,1.473M,1.456M,1.456M,3.0
+=======
+2025-03-25 22:30:00+05:30,US,Building Permits FinalFEB,,1.473M,1.456M,1.456M,3.0
+2025-03-25 22:30:00+05:30,AU,2025–26 Federal Budget,,,,,3.0
+2025-03-25 22:30:00+05:30,US,Money SupplyFEB,,$21.56T,,,3.0
+>>>>>>> Stashed changes
 2025-03-25 22:30:00+05:30,US,Building Permits MoM FinalFEB,,-0.6%,-1.2%,-1.2%,3.0
 2025-03-25 22:30:00+05:30,AR,Tax RevenueFEB,,ARS15032B,,,3.0
 2025-03-25 22:30:00+05:30,US,2-Year Note Auction,,4.169%,,,3.0
@@ -3800,6 +3829,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-26 15:40:00+05:30,GB,Spring Economic Statement,,,,,3.0
 2025-03-26 16:00:00+05:30,DE,15-Year Bund Auction,,2.60%,,,3.0
 2025-03-26 16:30:00+05:30,US,MBA Mortgage Market IndexMAR/21,,252.5,,,3.0
+<<<<<<< Updated upstream
 2025-03-26 16:30:00+05:30,FR,Unemployment Benefit ClaimsFEB,,204.8K,,65.0K,2.0
 2025-03-26 16:30:00+05:30,US,MBA Purchase IndexMAR/21,,154.7,,,3.0
 2025-03-26 16:30:00+05:30,US,MBA Mortgage ApplicationsMAR/21,,-6.2%,,,3.0
@@ -3807,6 +3837,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-26 16:30:00+05:30,GB,Spring Economic Statement,,,,,3.0
 2025-03-26 16:30:00+05:30,US,MBA Mortgage Refinance IndexMAR/21,,794.4,,,3.0
 2025-03-26 16:30:00+05:30,FR,Jobseekers TotalFEB,,3162K,,3227K,3.0
+=======
+2025-03-26 16:30:00+05:30,US,MBA Mortgage ApplicationsMAR/21,,-6.2%,,,3.0
+2025-03-26 16:30:00+05:30,US,MBA Purchase IndexMAR/21,,154.7,,,3.0
+2025-03-26 16:30:00+05:30,FR,Unemployment Benefit ClaimsFEB,,204.8K,,65.0K,2.0
+2025-03-26 16:30:00+05:30,US,MBA 30-Year Mortgage RateMAR/21,,6.72%,,,2.0
+2025-03-26 16:30:00+05:30,GB,Spring Economic Statement,,,,,3.0
+2025-03-26 16:30:00+05:30,FR,Jobseekers TotalFEB,,3162K,,3227K,3.0
+2025-03-26 16:30:00+05:30,US,MBA Mortgage Refinance IndexMAR/21,,794.4,,,3.0
+>>>>>>> Stashed changes
 2025-03-26 17:00:00+05:30,BR,Current AccountFEB,,$-8.655B,,$-8.1B,3.0
 2025-03-26 17:00:00+05:30,BR,Foreign Direct InvestmentFEB,,$6.501B,,$6.6B,3.0
 2025-03-26 17:00:00+05:30,GB,Spring Economic Statement,,,,,3.0
@@ -3961,9 +4000,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-28 13:15:00+05:30,FR,PPI MoMFEB,-0.8%,0.6%,,0.5%,3.0
 2025-03-28 13:30:00+05:30,ES,Harmonised Inflation Rate MoM PrelMAR,0.7%,0.4%,,0.3%,3.0
 2025-03-28 13:30:00+05:30,ES,Harmonised Inflation Rate YoY PrelMAR,2.2%,2.9%,,2.5%,3.0
+<<<<<<< Updated upstream
 2025-03-28 13:30:00+05:30,ES,Core Inflation Rate YoY PrelMAR,2%,2.2%,,2.2%,3.0
 2025-03-28 13:30:00+05:30,ES,Inflation Rate MoM PrelMAR,0.1%,0.4%,,0.3%,2.0
 2025-03-28 13:30:00+05:30,ES,Inflation Rate YoY PrelMAR,2.3%,3%,2.7%,2.7%,2.0
+=======
+2025-03-28 13:30:00+05:30,ES,Inflation Rate YoY PrelMAR,2.3%,3%,2.7%,2.7%,2.0
+2025-03-28 13:30:00+05:30,ES,Inflation Rate MoM PrelMAR,0.1%,0.4%,,0.3%,2.0
+2025-03-28 13:30:00+05:30,ES,Core Inflation Rate YoY PrelMAR,2%,2.2%,,2.2%,3.0
+>>>>>>> Stashed changes
 2025-03-28 14:00:00+05:30,EA,ECB Guindos Speech,,,,,3.0
 2025-03-28 14:25:00+05:30,DE,Unemployment ChangeMAR,26K,5K,10K,6.0K,2.0
 2025-03-28 14:25:00+05:30,DE,Unemployment RateMAR,6.3%,6.2%,6.2%,6.20%,2.0
@@ -4002,6 +4047,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-28 18:00:00+05:30,CA,GDP MoM PrelFEB,0%,,,-0.1%,2.0
 2025-03-28 18:00:00+05:30,CA,GDP MoMJAN,0.4%,0.3%,0.3%,0.3%,2.0
 2025-03-28 18:00:00+05:30,US,Core PCE Price Index YoYFEB,2.8%,2.7%,2.7%,2.6%,3.0
+<<<<<<< Updated upstream
 2025-03-28 18:00:00+05:30,US,Personal Spending MoMFEB,0.4%,-0.3%,0.5%,0.5%,1.0
 2025-03-28 18:00:00+05:30,US,Personal Income MoMFEB,0.8%,0.7%,0.4%,0.3%,1.0
 2025-03-28 19:10:00+05:30,IN,External DebtQ4,$717.9B,$711.8B,,$ 612B,3.0
@@ -4011,6 +4057,18 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-28 19:30:00+05:30,US,Michigan Consumer Expectations FinalMAR,52.6,64.0,54.2,54.2,3.0
 2025-03-28 19:30:00+05:30,US,Michigan 5 Year Inflation Expectations FinalMAR,4.1%,3.5%,3.9%,3.9%,3.0
 2025-03-28 19:30:00+05:30,BR,Net PayrollsFEB,,137.303K,,150.0K,3.0
+=======
+2025-03-28 18:00:00+05:30,US,Personal Income MoMFEB,0.8%,0.7%,0.4%,0.3%,1.0
+2025-03-28 18:00:00+05:30,US,Personal Spending MoMFEB,0.4%,-0.3%,0.5%,0.5%,1.0
+2025-03-28 19:10:00+05:30,IN,External DebtQ4,$717.9B,$711.8B,,$ 612B,3.0
+2025-03-28 19:30:00+05:30,BR,Net PayrollsFEB,,137.303K,,150.0K,3.0
+2025-03-28 19:30:00+05:30,US,Michigan 5 Year Inflation Expectations FinalMAR,4.1%,3.5%,3.9%,3.9%,3.0
+2025-03-28 19:30:00+05:30,US,Michigan Consumer Sentiment FinalMAR,57.0,64.7,57.9,57.9,2.0
+2025-03-28 19:30:00+05:30,US,Michigan Current Conditions FinalMAR,63.8,65.7,63.5,63.5,3.0
+2025-03-28 19:30:00+05:30,US,Michigan Inflation Expectations FinalMAR,5%,4.3%,4.9%,4.9%,3.0
+2025-03-28 19:30:00+05:30,US,Michigan Consumer Expectations FinalMAR,52.6,64.0,54.2,54.2,3.0
+2025-03-28 20:30:00+05:30,CA,Budget BalanceJAN,C$-5.13B,C$1B,,C$1.5B,3.0
+>>>>>>> Stashed changes
 2025-03-28 20:30:00+05:30,BR,Net PayrollsFEB,,137.303K,,150.0K,3.0
 2025-03-28 20:30:00+05:30,CA,Budget BalanceJAN,C$-5.13B,C$1B,,C$1.5B,3.0
 2025-03-28 21:45:00+05:30,US,Fed Barr Speech,,,,,2.0
@@ -4018,10 +4076,17 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-28 22:30:00+05:30,US,Baker Hughes Total Rigs CountMAR/28,592,593,,,3.0
 2025-03-28 22:30:00+05:30,US,Baker Hughes Oil Rig CountMAR/28,484,486,,,3.0
 2025-03-28 23:30:00+05:30,BR,Net PayrollsFEB,431.995K,137.303K,250K,150.0K,3.0
+<<<<<<< Updated upstream
 2025-03-29 01:00:00+05:30,MX,Fiscal BalanceFEB,,MXN-19.42B,,MXN-500.0B,2.0
 2025-03-29 01:00:00+05:30,US,Fed Bostic Speech,,,,,2.0
 2025-03-29 01:00:00+05:30,SA,M3 Money Supply YoYFEB,,9%,,9.0%,2.0
 2025-03-29 01:00:00+05:30,SA,Private Bank Lending YoYFEB,,13.8%,,13.5%,2.0
+=======
+2025-03-29 01:00:00+05:30,US,Fed Bostic Speech,,,,,2.0
+2025-03-29 01:00:00+05:30,MX,Fiscal BalanceFEB,,MXN-19.42B,,MXN-500.0B,2.0
+2025-03-29 01:00:00+05:30,SA,Private Bank Lending YoYFEB,,13.8%,,13.5%,2.0
+2025-03-29 01:00:00+05:30,SA,M3 Money Supply YoYFEB,,9%,,9.0%,2.0
+>>>>>>> Stashed changes
 2025-03-29 01:30:00+05:30,SA,M3 Money Supply YoYFEB,,9%,,9.0%,3.0
 2025-03-29 01:30:00+05:30,SA,Private Bank Lending YoYFEB,,13.8%,,13.5%,3.0
 2025-03-29 01:30:00+05:30,MX,Fiscal BalanceFEB,MXN-114.23B,MXN-19.42B,,MXN-500.0B,3.0
@@ -4034,12 +4099,21 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-31 04:30:00+05:30,KR,Industrial Production MoMFEB,1%,-2.8%,0.8%,1.0%,3.0
 2025-03-31 04:30:00+05:30,KR,Industrial Production YoYFEB,7%,-4.7%,2%,1.4%,3.0
 2025-03-31 05:20:00+05:30,JP,Retail Sales YoYFEB,1.4%,4.4%,2%,2.2%,2.0
+<<<<<<< Updated upstream
 2025-03-31 05:20:00+05:30,JP,Industrial Production MoM PrelFEB,2.5%,-1.1%,2.3%,2.0%,2.0
 2025-03-31 05:20:00+05:30,JP,Industrial Production YoY PrelFEB,0.3%,2.2%,,3.0%,3.0
 2025-03-31 05:20:00+05:30,JP,Retail Sales MoMFEB,0.5%,1.2%,,0.1%,3.0
 2025-03-31 06:00:00+05:30,AU,Private Sector Credit YoYFEB,6.5%,6.5%,,6.4%,3.0
 2025-03-31 06:00:00+05:30,AU,Housing Credit MoMFEB,0.4%,0.4%,,0.4%,3.0
 2025-03-31 06:00:00+05:30,AU,Private Sector Credit MoMFEB,0.5%,0.5%,0.5%,0.5%,3.0
+=======
+2025-03-31 05:20:00+05:30,JP,Industrial Production YoY PrelFEB,0.3%,2.2%,,3.0%,3.0
+2025-03-31 05:20:00+05:30,JP,Retail Sales MoMFEB,0.5%,1.2%,,0.1%,3.0
+2025-03-31 05:20:00+05:30,JP,Industrial Production MoM PrelFEB,2.5%,-1.1%,2.3%,2.0%,2.0
+2025-03-31 06:00:00+05:30,AU,Private Sector Credit YoYFEB,6.5%,6.5%,,6.4%,3.0
+2025-03-31 06:00:00+05:30,AU,Private Sector Credit MoMFEB,0.5%,0.5%,0.5%,0.5%,3.0
+2025-03-31 06:00:00+05:30,AU,Housing Credit MoMFEB,0.4%,0.4%,,0.4%,3.0
+>>>>>>> Stashed changes
 2025-03-31 07:00:00+05:30,CN,NBS Manufacturing PMIMAR,50.5,50.2,50.5,50.5,1.0
 2025-03-31 07:00:00+05:30,CN,NBS General PMIMAR,51.4,51.1,,50.8,3.0
 2025-03-31 07:00:00+05:30,CN,NBS Non Manufacturing PMIMAR,50.8,50.4,50.5,50.5,2.0
@@ -4050,23 +4124,38 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-31 11:30:00+05:30,DE,Retail Sales MoMFEB,0.8%,0.7%,0%,0.1%,2.0
 2025-03-31 11:30:00+05:30,DE,Retail Sales YoYFEB,4.9%,3.3%,,3.2%,2.0
 2025-03-31 11:30:00+05:30,ZA,M3 Money Supply YoYFEB,6.05%,7.1%,,,3.0
+<<<<<<< Updated upstream
 2025-03-31 11:30:00+05:30,DE,Import Prices MoMFEB,0.3%,1.1%,-0.1%,0.5%,3.0
 2025-03-31 11:30:00+05:30,ZA,Private Sector Credit YoYFEB,3.68%,4.59%,,4.7%,3.0
 2025-03-31 11:30:00+05:30,DE,Import Prices YoYFEB,3.6%,3.1%,,3.8%,3.0
 2025-03-31 12:30:00+05:30,DE,Retail Sales MoMFEB,,0.2%,,0.3%,2.0
 2025-03-31 12:30:00+05:30,DE,Retail Sales YoYFEB,,2.9%,,3.2%,2.0
 2025-03-31 13:30:00+05:30,DE,Hesse CPI MoMMAR,0.4%,0.3%,,,3.0
+=======
+2025-03-31 11:30:00+05:30,DE,Import Prices YoYFEB,3.6%,3.1%,,3.8%,3.0
+2025-03-31 11:30:00+05:30,DE,Import Prices MoMFEB,0.3%,1.1%,-0.1%,0.5%,3.0
+2025-03-31 11:30:00+05:30,ZA,Private Sector Credit YoYFEB,3.68%,4.59%,,4.7%,3.0
+2025-03-31 12:30:00+05:30,DE,Retail Sales MoMFEB,,0.2%,,0.3%,2.0
+2025-03-31 12:30:00+05:30,DE,Retail Sales YoYFEB,,2.9%,,3.2%,2.0
+>>>>>>> Stashed changes
 2025-03-31 13:30:00+05:30,DE,Brandenburg CPI YoYMAR,2.3%,2.3%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Bavaria CPI YoYMAR,2.3%,2.4%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Saxony CPI YoYMAR,2.5%,2.3%,,,3.0
 2025-03-31 13:30:00+05:30,ES,Current AccountJAN,€1.2B,€1.67B,,€3.2B,3.0
 2025-03-31 13:30:00+05:30,AU,TD-MI Inflation Gauge MoMMAR,0.7%,-0.2%,,0.3%,3.0
+<<<<<<< Updated upstream
 2025-03-31 13:30:00+05:30,DE,North Rhine Westphalia CPI YoYMAR,1.9%,1.9%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Brandenburg CPI MoMMAR,0.4%,0.6%,,,3.0
+=======
+2025-03-31 13:30:00+05:30,DE,Hesse CPI MoMMAR,0.4%,0.3%,,,3.0
+2025-03-31 13:30:00+05:30,DE,North Rhine Westphalia CPI YoYMAR,1.9%,1.9%,,,3.0
+2025-03-31 13:30:00+05:30,DE,Baden Wuerttemberg CPI YoYMAR,2.2%,2.5%,,,3.0
+>>>>>>> Stashed changes
 2025-03-31 13:30:00+05:30,DE,Saxony CPI MoMMAR,0.6%,0.3%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Bavaria CPI MoMMAR,0.3%,0.4%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Baden Wuerttemberg CPI MoMMAR,0.2%,0.5%,,,3.0
 2025-03-31 13:30:00+05:30,DE,Hesse CPI YoYMAR,2.4%,2.3%,,,3.0
+<<<<<<< Updated upstream
 2025-03-31 13:30:00+05:30,DE,Baden Wuerttemberg CPI YoYMAR,2.2%,2.5%,,,3.0
 2025-03-31 13:30:00+05:30,DE,North Rhine Westphalia CPI MoMMAR,0.3%,0.4%,,,3.0
 2025-03-31 13:45:00+05:30,KR,2-Year KTB Auction,2.675%,2.610%,,,3.0
@@ -4077,17 +4166,28 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-31 14:00:00+05:30,GB,M4 Money Supply MoMFEB,0.2%,1.4%,1.1%,1.0%,3.0
 2025-03-31 14:30:00+05:30,IT,Inflation Rate YoY PrelMAR,2%,1.6%,1.6%,1.9%,1.0
 2025-03-31 14:30:00+05:30,IT,Harmonised Inflation Rate MoM PrelMAR,1.6%,0.1%,,1.4%,3.0
+=======
+2025-03-31 13:30:00+05:30,DE,Brandenburg CPI MoMMAR,0.4%,0.6%,,,3.0
+2025-03-31 13:30:00+05:30,DE,North Rhine Westphalia CPI MoMMAR,0.3%,0.4%,,,3.0
+2025-03-31 13:45:00+05:30,KR,2-Year KTB Auction,2.675%,2.610%,,,3.0
+2025-03-31 14:00:00+05:30,GB,Net Lending to Individuals MoMFEB,£4.6B,£5.9B,£4.9B,£5.2B,3.0
+2025-03-31 14:00:00+05:30,GB,Mortgage ApprovalsFEB,65.48K,66.04K,66K,67.0K,2.0
+2025-03-31 14:00:00+05:30,GB,M4 Money Supply MoMFEB,0.2%,1.4%,1.1%,1.0%,3.0
+2025-03-31 14:00:00+05:30,GB,BoE Consumer CreditFEB,£1.358B,£1.701B,,£1.5B,2.0
+2025-03-31 14:00:00+05:30,GB,Mortgage LendingFEB,£3.29B,£4.23B,,£4.2B,2.0
+>>>>>>> Stashed changes
 2025-03-31 14:30:00+05:30,IT,Inflation Rate MoM PrelMAR,0.4%,0.2%,0.3%,0.2%,2.0
 2025-03-31 14:30:00+05:30,IT,Harmonised Inflation Rate YoY PrelMAR,2.1%,1.7%,,1.9%,3.0
+2025-03-31 14:30:00+05:30,IT,Inflation Rate YoY PrelMAR,2%,1.6%,1.6%,1.9%,1.0
+2025-03-31 14:30:00+05:30,IT,Harmonised Inflation Rate MoM PrelMAR,1.6%,0.1%,,1.4%,3.0
 2025-03-31 15:10:00+05:30,IN,External DebtQ4,,$711.8B,,$ 612B,3.0
 2025-03-31 15:30:00+05:30,IT,Harmonised Inflation Rate YoY PrelMAR,,1.7%,,1.9%,3.0
 2025-03-31 15:30:00+05:30,IT,Harmonised Inflation Rate MoM PrelMAR,,0.1%,,1.4%,3.0
 2025-03-31 15:30:00+05:30,IT,Inflation Rate MoM PrelMAR,,0.2%,,0.2%,2.0
 2025-03-31 15:30:00+05:30,IT,Inflation Rate YoY PrelMAR,,1.6%,,1.9%,1.0
 2025-03-31 16:00:00+05:30,IN,Government Budget ValueFEB,,INR-11695B,,INR -15600.0B,3.0
-2025-03-31 17:00:00+05:30,BR,Nominal Budget BalanceFEB,,BRL63.737B,,BRL-27.0B,3.0
-2025-03-31 17:00:00+05:30,BR,Gross Debt to GDPFEB,,75.3%,,75.0%,3.0
 2025-03-31 17:00:00+05:30,IN,Infrastructure Output YoYFEB,,4.6%,,4.8%,3.0
+<<<<<<< Updated upstream
 2025-03-31 17:30:00+05:30,DE,Inflation Rate YoY PrelMAR,2.2%,2.3%,2.2%,2.3%,1.0
 2025-03-31 17:30:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,2.0
 2025-03-31 17:30:00+05:30,DE,Harmonised Inflation Rate MoM PrelMAR,0.4%,0.5%,0.5%,0.4%,3.0
@@ -4099,12 +4199,29 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-31 18:30:00+05:30,FR,3-Month BTF Auction,2.244%,2.300%,,,3.0
 2025-03-31 18:30:00+05:30,FR,12-Month BTF Auction,2.131%,2.226%,,,3.0
 2025-03-31 18:30:00+05:30,IN,Current AccountQ4,,$-11.2B,,$ -7.3B,2.0
+=======
+2025-03-31 17:00:00+05:30,BR,Gross Debt to GDPFEB,,75.3%,,75.0%,3.0
+2025-03-31 17:00:00+05:30,BR,Nominal Budget BalanceFEB,,BRL63.737B,,BRL-27.0B,3.0
+2025-03-31 17:30:00+05:30,ZA,Balance of TradeFEB,ZAR20.9B,ZAR-16.81B,,ZAR 10.0B,2.0
+2025-03-31 17:30:00+05:30,DE,Harmonised Inflation Rate YoY PrelMAR,2.3%,2.6%,2.4%,2.4%,3.0
+2025-03-31 17:30:00+05:30,DE,Inflation Rate MoM PrelMAR,0.3%,0.4%,0.4%,0.4%,2.0
+2025-03-31 17:30:00+05:30,DE,Harmonised Inflation Rate MoM PrelMAR,0.4%,0.5%,0.5%,0.4%,3.0
+2025-03-31 17:30:00+05:30,DE,Inflation Rate YoY PrelMAR,2.2%,2.3%,2.2%,2.3%,1.0
+2025-03-31 17:30:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,2.0
+2025-03-31 18:30:00+05:30,IN,Current AccountQ4,,$-11.2B,,$ -7.3B,2.0
+2025-03-31 18:30:00+05:30,FR,3-Month BTF Auction,2.244%,2.300%,,,3.0
+2025-03-31 18:30:00+05:30,FR,12-Month BTF Auction,2.131%,2.226%,,,3.0
+2025-03-31 18:30:00+05:30,FR,6-Month BTF Auction,2.211%,2.282%,,,3.0
+2025-03-31 18:30:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,2.0
+2025-03-31 19:15:00+05:30,US,Chicago PMIMAR,47.6,45.5,45.2,43,2.0
+>>>>>>> Stashed changes
 2025-03-31 19:15:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,2.0
 2025-03-31 19:15:00+05:30,US,Chicago PMIMAR,47.6,45.5,45.2,43,2.0
 2025-03-31 20:00:00+05:30,US,Dallas Fed Manufacturing IndexMAR,-16.3,-8.3,,-12,2.0
 2025-03-31 20:00:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,2.0
 2025-03-31 21:00:00+05:30,US,6-Month Bill Auction,4.070%,4.085%,,,3.0
 2025-03-31 21:00:00+05:30,US,3-Month Bill Auction,4.205%,4.190%,,,3.0
+<<<<<<< Updated upstream
 2025-03-31 21:30:00+05:30,US,Prospective Plantings - Soy2025,83.495M,86.51M,83.82M,,3.0
 2025-03-31 21:30:00+05:30,BR,BCB Focus Market Readout,,,,,3.0
 2025-03-31 21:30:00+05:30,US,Prospective Plantings - Wheat2025,45.35M,47.498M,46.50M,,3.0
@@ -4119,24 +4236,48 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-03-31 21:30:00+05:30,US,Quarterly Grain Stocks - WheatMAR,1.24B,1.57B,1.22B,,3.0
 2025-03-31 22:30:00+05:30,BR,Federal Tax RevenuesJAN,,BRL261.3B,,,3.0
 2025-03-31 22:30:00+05:30,BR,Federal Tax RevenuesFEB,,,,,3.0
+=======
+2025-03-31 21:30:00+05:30,BR,BCB Focus Market Readout,,,,,3.0
+2025-03-31 21:30:00+05:30,RU,M2 Money Supply YoYFEB,,19.2%,,19.2%,3.0
+2025-03-31 21:30:00+05:30,US,Prospective Plantings - Wheat2025,45.35M,47.498M,46.50M,,3.0
+2025-03-31 21:30:00+05:30,US,Quarterly Grain Stocks - CornMAR,8.15B,12.074B,8.13B,,3.0
+2025-03-31 21:30:00+05:30,US,Prospective Plantings - Soy2025,83.495M,86.51M,83.82M,,3.0
+2025-03-31 21:30:00+05:30,US,Prospective Plantings - Cotton2025,9.867M,10.673M,10.17M,,3.0
+2025-03-31 21:30:00+05:30,US,Prospective Plantings - Corn2025,95.326M,90.036M,94.35M,,3.0
+2025-03-31 21:30:00+05:30,BR,Federal Tax RevenuesFEB,,,,,3.0
+2025-03-31 21:30:00+05:30,BR,Federal Tax RevenuesJAN,,BRL261.3B,,,3.0
+2025-03-31 21:30:00+05:30,US,Quarterly Grain Stocks - SoyMAR,1.91B,3.1B,1.90B,,3.0
+2025-03-31 21:30:00+05:30,US,Quarterly Grain Stocks - WheatMAR,1.24B,1.57B,1.22B,,3.0
+2025-03-31 21:30:00+05:30,ZA,Budget BalanceFEB,,ZAR-62.68B,,,3.0
+2025-03-31 22:30:00+05:30,BR,Federal Tax RevenuesFEB,,,,,3.0
+2025-03-31 22:30:00+05:30,BR,Federal Tax RevenuesJAN,,BRL261.3B,,,3.0
+>>>>>>> Stashed changes
 2025-03-31 22:30:00+05:30,BR,BCB Focus Market Readout,,,,,3.0
 2025-03-31 22:30:00+05:30,RU,M2 Money Supply YoYFEB,18.4%,19.2%,,19.2%,3.0
 2025-04-01 03:30:00+05:30,AU,S&P Global Manufacturing PMI FinalMAR,52.1,50.4,52.6,52.6,3.0
 2025-04-01 05:00:00+05:30,JP,Unemployment RateFEB,2.4%,2.5%,2.5%,2.6%,2.0
 2025-04-01 05:00:00+05:30,JP,Jobs/applications ratioFEB,1.24,1.26,1.26,1.26,3.0
 2025-04-01 05:20:00+05:30,JP,Tankan Small Manufacturers IndexQ1,2,1,-1,0,3.0
+<<<<<<< Updated upstream
 2025-04-01 05:20:00+05:30,JP,Tankan Non-Manufacturing OutlookQ1,28,28,29,25,3.0
 2025-04-01 05:20:00+05:30,JP,Tankan Large Manufacturing OutlookQ1,12,13,9,11,3.0
 2025-04-01 05:20:00+05:30,JP,Tankan Large All Industry CapexQ1,3.1%,11.3%,,11%,3.0
 2025-04-01 05:20:00+05:30,JP,Tankan Large Manufacturers IndexQ1,12,14,12,11,1.0
 2025-04-01 05:20:00+05:30,JP,Tankan Large Non-Manufacturing IndexQ1,35,33,33,30,3.0
 2025-04-01 05:30:00+05:30,KR,Balance of TradeMAR,$4.99B,$4.15B,$6.1B,$ 5B,3.0
+=======
+2025-04-01 05:20:00+05:30,JP,Tankan Large Manufacturers IndexQ1,12,14,12,11,1.0
+2025-04-01 05:20:00+05:30,JP,Tankan Large Non-Manufacturing IndexQ1,35,33,33,30,3.0
+2025-04-01 05:20:00+05:30,JP,Tankan Large Manufacturing OutlookQ1,12,13,9,11,3.0
+2025-04-01 05:20:00+05:30,JP,Tankan Non-Manufacturing OutlookQ1,28,28,29,25,3.0
+2025-04-01 05:20:00+05:30,JP,Tankan Large All Industry CapexQ1,3.1%,11.3%,,11%,3.0
+>>>>>>> Stashed changes
 2025-04-01 05:30:00+05:30,KR,Exports YoYMAR,3.1%,0.7%,3.5%,2.7%,2.0
 2025-04-01 05:30:00+05:30,KR,Imports YoYMAR,2.3%,0.2%,2.3%,1.9%,3.0
 2025-04-01 05:31:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,0.4%,0.3%,,0.3%,3.0
+2025-04-01 06:00:00+05:30,JP,Jibun Bank Manufacturing PMI FinalMAR,48.4,49.0,48.3,48.3,3.0
 2025-04-01 06:00:00+05:30,KR,S&P Global Manufacturing PMIMAR,49.1,49.9,,49,2.0
 2025-04-01 06:00:00+05:30,AU,Retail Sales MoMFEB,0.2%,0.3%,0.3%,0.2%,2.0
-2025-04-01 06:00:00+05:30,JP,Jibun Bank Manufacturing PMI FinalMAR,48.4,49.0,48.3,48.3,3.0
 2025-04-01 06:30:00+05:30,SG,URA Property Index QoQ PrelQ1,0.6%,2.3%,,0.9%,3.0
 2025-04-01 07:15:00+05:30,CN,Caixin Manufacturing PMIMAR,51.2,50.8,51.1,51,1.0
 2025-04-01 10:00:00+05:30,AU,RBA Interest Rate Decision,4.1%,4.1%,4.1%,4.1%,1.0
@@ -4146,8 +4287,8 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-01 11:30:00+05:30,GB,Nationwide Housing Prices MoMMAR,0%,0.4%,0.2%,0.3%,2.0
 2025-04-01 11:30:00+05:30,GB,Nationwide Housing Prices YoYMAR,3.9%,3.9%,,3.8%,2.0
 2025-04-01 12:00:00+05:30,AU,RBA Press Conference,,,,,2.0
-2025-04-01 12:30:00+05:30,SA,Private Bank Lending YoYFEB,13.8%,13.8%,,13.5%,3.0
 2025-04-01 12:30:00+05:30,SA,M3 Money Supply YoYFEB,10.1%,9%,,9.0%,3.0
+2025-04-01 12:30:00+05:30,SA,Private Bank Lending YoYFEB,13.8%,13.8%,,13.5%,3.0
 2025-04-01 12:45:00+05:30,ES,HCOB Manufacturing PMIMAR,49.5,49.7,50,50.3,2.0
 2025-04-01 13:15:00+05:30,IT,HCOB Manufacturing PMIMAR,46.6,47.4,48,48.5,2.0
 2025-04-01 13:20:00+05:30,CN,Current Account FinalQ4,$163.8B,$157.4B,,$180.7B,3.0
@@ -4157,8 +4298,8 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-01 13:30:00+05:30,IT,Unemployment RateFEB,5.9%,6.2%,6.3%,6.3%,2.0
 2025-04-01 13:45:00+05:30,GB,BoE Greene Speech,,,,,3.0
 2025-04-01 13:50:00+05:30,EA,ECB Cipollone Speech,,,,,3.0
-2025-04-01 14:00:00+05:30,GB,S&P Global Manufacturing PMI FinalMAR,44.9,46.9,44.6,44.6,3.0
 2025-04-01 14:00:00+05:30,CN,Current Account FinalQ4,,$147.6B,,$180.7B,3.0
+<<<<<<< Updated upstream
 2025-04-01 14:30:00+05:30,EA,CPI FlashMAR,128.04,127.26,,127.9,3.0
 2025-04-01 14:30:00+05:30,EA,Inflation Rate MoM FlashMAR,0.6%,0.4%,,0.6%,2.0
 2025-04-01 14:30:00+05:30,EA,Inflation Rate YoY FlashMAR,2.2%,2.3%,2.3%,2.1%,1.0
@@ -4168,15 +4309,26 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-01 15:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
 2025-04-01 15:00:00+05:30,DE,2-Year Schatz Auction,2.01%,2.22%,,,3.0
 2025-04-01 17:30:00+05:30,ES,New Car Sales YoYMAR,23.2%,11%,,-1.0%,3.0
+=======
+2025-04-01 14:00:00+05:30,GB,S&P Global Manufacturing PMI FinalMAR,44.9,46.9,44.6,44.6,3.0
+2025-04-01 14:30:00+05:30,ZA,ABSA Manufacturing PMIMAR,48.7,44.7,,44,3.0
+2025-04-01 14:30:00+05:30,EA,Core Inflation Rate YoY FlashMAR,2.4%,2.6%,2.5%,2.6%,2.0
+2025-04-01 14:30:00+05:30,EA,Unemployment RateFEB,6.1%,6.2%,6.2%,6.3%,2.0
+2025-04-01 14:30:00+05:30,EA,Inflation Rate YoY FlashMAR,2.2%,2.3%,2.3%,2.1%,1.0
+2025-04-01 14:30:00+05:30,EA,Inflation Rate MoM FlashMAR,0.6%,0.4%,,0.6%,2.0
+2025-04-01 14:30:00+05:30,EA,CPI FlashMAR,128.04,127.26,,127.9,3.0
+2025-04-01 15:00:00+05:30,DE,2-Year Schatz Auction,2.01%,2.22%,,,3.0
+2025-04-01 15:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
+>>>>>>> Stashed changes
 2025-04-01 17:30:00+05:30,ZA,Total New Vehicle SalesMAR,,47.98K,,46.6K,2.0
 2025-04-01 17:30:00+05:30,MX,Business ConfidenceMAR,49.9,50.3,,49,2.0
 2025-04-01 17:50:00+05:30,ZA,Total New Vehicle SalesMAR,49.493K,47.98K,,46.6K,3.0
 2025-04-01 18:00:00+05:30,EA,ECB President Lagarde Speech,,,,,2.0
 2025-04-01 18:25:00+05:30,US,Redbook YoYMAR/29,4.8%,5.6%,,,3.0
 2025-04-01 18:30:00+05:30,BR,S&P Global Manufacturing PMIMAR,51.8,53,,49.8,3.0
-2025-04-01 19:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,2.0
-2025-04-01 19:00:00+05:30,CA,S&P Global Manufacturing PMIMAR,46.3,47.8,,47,2.0
 2025-04-01 19:00:00+05:30,ZA,Total New Vehicle SalesMAR,,47.98K,,46.6K,2.0
+2025-04-01 19:00:00+05:30,CA,S&P Global Manufacturing PMIMAR,46.3,47.8,,47,2.0
+2025-04-01 19:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,2.0
 2025-04-01 19:15:00+05:30,US,S&P Global Manufacturing PMI FinalMAR,50.2,52.7,49.8,49.8,3.0
 2025-04-01 19:30:00+05:30,US,ISM Manufacturing PricesMAR,69.4,62.4,65,68,3.0
 2025-04-01 19:30:00+05:30,US,ISM Manufacturing PMIMAR,49,50.3,49.5,50,1.0
@@ -4191,15 +4343,21 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-01 20:00:00+05:30,US,Dallas Fed Services IndexMAR,-11.3,4.6,,5,3.0
 2025-04-01 20:00:00+05:30,US,Dallas Fed Services Revenues IndexMAR,1.3,8.2,,7,3.0
 2025-04-01 20:10:00+05:30,US,RCM/TIPP Economic Optimism IndexAPR,49.1,49.8,50.1,49.8,3.0
+<<<<<<< Updated upstream
 2025-04-01 20:30:00+05:30,MX,S&P Global Manufacturing PMIMAR,46.5,47.6,,47.4,3.0
 2025-04-01 20:30:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
 2025-04-01 20:30:00+05:30,ZA,Total New Vehicle SalesMAR,,47.98K,,46.6K,3.0
+=======
+2025-04-01 20:30:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
+2025-04-01 20:30:00+05:30,ZA,Total New Vehicle SalesMAR,,47.98K,,46.6K,3.0
+2025-04-01 20:30:00+05:30,MX,S&P Global Manufacturing PMIMAR,46.5,47.6,,47.4,3.0
+2025-04-01 22:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
+2025-04-01 22:00:00+05:30,EA,ECB Lane Speech,,,,,3.0
+2025-04-01 22:00:00+05:30,SA,M3 Money Supply YoYFEB,,9%,,9.0%,3.0
+>>>>>>> Stashed changes
 2025-04-01 22:00:00+05:30,AR,Tax RevenueFEB,,ARS15032B,,,3.0
 2025-04-01 22:00:00+05:30,SA,Private Bank Lending YoYFEB,,13.8%,,13.5%,3.0
 2025-04-01 22:00:00+05:30,ZA,Total New Vehicle SalesMAR,,47.98K,,46.6K,3.0
-2025-04-01 22:00:00+05:30,SA,M3 Money Supply YoYFEB,,9%,,9.0%,3.0
-2025-04-01 22:00:00+05:30,ES,New Car Sales YoYMAR,,10.5%,,-1.0%,3.0
-2025-04-01 22:00:00+05:30,EA,ECB Lane Speech,,,,,3.0
 2025-04-02 02:00:00+05:30,US,API Crude Oil Stock ChangeMAR/28,+6.037M,-4.6M,,,2.0
 2025-04-02 03:30:00+05:30,AU,Ai Group Construction IndexMAR,-19.3,-3.7,,-5,3.0
 2025-04-02 03:30:00+05:30,AU,Ai Group Manufacturing IndexMAR,-29.7,-8.2,,-9,3.0
@@ -4211,6 +4369,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-02 05:30:00+05:30,AR,Tax RevenueFEB,ARS12733B,ARS13520.8B,,,3.0
 2025-04-02 05:30:00+05:30,AU,TD-MI Inflation Gauge MoMMAR,,-0.2%,,0.3%,3.0
 2025-04-02 06:00:00+05:30,AU,RBA Chart Pack,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-02 06:00:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
 2025-04-02 06:00:00+05:30,ID,S&P Global Manufacturing PMIMAR,52.4,53.6,,52.2,3.0
 2025-04-02 06:00:00+05:30,AU,Building Permits MoM PrelFEB,-0.3%,6.9%,-1.4%,-2.4%,2.0
@@ -4218,34 +4377,46 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-02 10:30:00+05:30,IN,HSBC Manufacturing PMI FinalMAR,58.1,56.3,57.6,57.6,3.0
 2025-04-02 10:30:00+05:30,SG,MAS 12-Week Bill Auction,2.61%,2.84%,,,3.0
 2025-04-02 10:30:00+05:30,SG,MAS 4-Week Bill Auction,2.62%,2.88%,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-02 10:30:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
+2025-04-02 10:30:00+05:30,SG,MAS 4-Week Bill Auction,2.62%,2.88%,,,3.0
+2025-04-02 10:30:00+05:30,SG,MAS 12-Week Bill Auction,2.61%,2.84%,,,3.0
+2025-04-02 10:30:00+05:30,IN,HSBC Manufacturing PMI FinalMAR,58.1,56.3,57.6,57.6,3.0
 2025-04-02 12:15:00+05:30,FR,Budget BalanceFEB,€-40.3B,€-17.3B,€-30.2B,€-40.0B,3.0
 2025-04-02 12:30:00+05:30,ES,Tourist Arrivals YoYFEB,7.7%,6.1%,,7.0%,3.0
 2025-04-02 12:30:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
 2025-04-02 12:30:00+05:30,ES,Unemployment ChangeMAR,-13.3K,-6K,-2.5K,-45.0K,2.0
 2025-04-02 12:30:00+05:30,TR,Istanbul Chamber of Industry Manufacturing PMIMAR,47.3,48.3,,48.8,3.0
 2025-04-02 13:30:00+05:30,BR,IPC-Fipe Inflation MoMMAR,0.62%,0.51%,,0.6%,3.0
-2025-04-02 14:30:00+05:30,GB,10-Year Index-Linked Treasury Gilt Auction,1.268%,1.115%,,,3.0
-2025-04-02 14:30:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
 2025-04-02 14:30:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
+<<<<<<< Updated upstream
 2025-04-02 15:00:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
+=======
+2025-04-02 14:30:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
+2025-04-02 14:30:00+05:30,GB,10-Year Index-Linked Treasury Gilt Auction,1.268%,1.115%,,,3.0
+>>>>>>> Stashed changes
 2025-04-02 15:00:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,3.0
 2025-04-02 15:00:00+05:30,DE,10-Year Bund Auction,,2.92%,,,3.0
 2025-04-02 15:00:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
 2025-04-02 15:10:00+05:30,DE,10-Year Bund Auction,2.68%,2.92%,,,3.0
 2025-04-02 15:30:00+05:30,US,LMI Logistics Managers IndexMAR,57.1,62.8,,,3.0
+2025-04-02 15:40:00+05:30,EU,12-Month Bill Auction,2.141%,2.243%,,,3.0
 2025-04-02 15:40:00+05:30,EU,3-Month Bill Auction,2.254%,2.340%,,,3.0
 2025-04-02 15:40:00+05:30,EU,6-Month Bill Auction,2.220%,2.297%,,,3.0
-2025-04-02 15:40:00+05:30,EU,12-Month Bill Auction,2.141%,2.243%,,,3.0
 2025-04-02 16:00:00+05:30,RU,Summary of the Key Rate Discussion,,,,,3.0
 2025-04-02 16:00:00+05:30,EA,ECB Schnabel Speech,,,,,3.0
 2025-04-02 16:30:00+05:30,US,MBA Purchase IndexMAR/28,158.2,155.8,,,3.0
+<<<<<<< Updated upstream
 2025-04-02 16:30:00+05:30,US,MBA Mortgage Refinance IndexMAR/28,710.4,752.4,,,3.0
 2025-04-02 16:30:00+05:30,US,MBA Mortgage ApplicationsMAR/28,-1.6%,-2%,,,3.0
 2025-04-02 16:30:00+05:30,US,MBA 30-Year Mortgage RateMAR/28,6.7%,6.71%,,,2.0
 2025-04-02 16:30:00+05:30,US,MBA Mortgage Market IndexMAR/28,243.6,247.5,,,3.0
 2025-04-02 16:40:00+05:30,EU,6-Month Bill Auction,,,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-02 16:40:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
+2025-04-02 16:40:00+05:30,EU,6-Month Bill Auction,,,,,3.0
 2025-04-02 16:40:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,3.0
 2025-04-02 16:40:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
 2025-04-02 16:40:00+05:30,EU,3-Month Bill Auction,,,,,3.0
@@ -4253,10 +4424,13 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-02 17:00:00+05:30,IN,M3 Money Supply YoYMAR/21,,9.6%,,,3.0
 2025-04-02 17:30:00+05:30,BR,Industrial Production YoYFEB,1.5%,1.3%,2.3%,1.2%,3.0
 2025-04-02 17:30:00+05:30,BR,Industrial Production MoMFEB,-0.1%,0%,0.5%,0.3%,2.0
+<<<<<<< Updated upstream
+=======
+2025-04-02 17:45:00+05:30,US,ADP Employment ChangeMAR,155K,84K,105K,60.0K,2.0
+2025-04-02 17:45:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,2.0
+>>>>>>> Stashed changes
 2025-04-02 17:45:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,2.0
 2025-04-02 17:45:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,2.0
-2025-04-02 17:45:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,2.0
-2025-04-02 17:45:00+05:30,US,ADP Employment ChangeMAR,155K,84K,105K,60.0K,2.0
 2025-04-02 18:30:00+05:30,SG,SIPMM Manufacturing PMIMAR,50.6,50.7,,50.4,3.0
 2025-04-02 18:30:00+05:30,US,Total Vehicle SalesMAR,17.77M,16.0M,15.9M,,3.0
 2025-04-02 19:30:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
@@ -4266,6 +4440,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-02 19:30:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,3.0
 2025-04-02 19:30:00+05:30,US,Factory Orders ex TransportationFEB,0.4%,0.3%,,0.5%,3.0
 2025-04-02 19:35:00+05:30,EA,ECB Lane Speech,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-02 20:00:00+05:30,US,EIA Distillate Stocks ChangeMAR/28,0.264M,-0.421M,-1.1M,,3.0
 2025-04-02 20:00:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,3.0
 2025-04-02 20:00:00+05:30,US,EIA Gasoline Stocks ChangeMAR/28,-1.551M,-1.446M,-1.9M,,2.0
@@ -4282,6 +4457,24 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-02 21:00:00+05:30,US,17-Week Bill Auction,4.200%,4.200%,,,3.0
 2025-04-02 21:30:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
 2025-04-02 21:30:00+05:30,RU,Retail Sales YoYFEB,2.2%,5.4%,1.1%,1.5%,3.0
+=======
+2025-04-02 20:00:00+05:30,US,EIA Crude Oil Stocks ChangeMAR/28,6.165M,-3.341M,-2M,,2.0
+2025-04-02 20:00:00+05:30,US,EIA Distillate Stocks ChangeMAR/28,0.264M,-0.421M,-1.1M,,3.0
+2025-04-02 20:00:00+05:30,US,Total Vehicle SalesMAR,,16.0M,,,3.0
+2025-04-02 20:00:00+05:30,US,EIA Gasoline Production ChangeMAR/28,0.062M,-0.401M,,,3.0
+2025-04-02 20:00:00+05:30,US,LMI Logistics Managers IndexMAR,,62.8,,,3.0
+2025-04-02 20:00:00+05:30,US,EIA Cushing Crude Oil Stocks ChangeMAR/28,2.373M,-0.755M,,,3.0
+2025-04-02 20:00:00+05:30,US,EIA Gasoline Stocks ChangeMAR/28,-1.551M,-1.446M,-1.9M,,2.0
+2025-04-02 20:00:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
+2025-04-02 20:00:00+05:30,US,EIA Refinery Crude Runs ChangeMAR/28,-0.192M,0.087M,,,3.0
+2025-04-02 20:00:00+05:30,US,EIA Crude Oil Imports ChangeMAR/28,0.999M,0.845M,,,3.0
+2025-04-02 20:00:00+05:30,AU,CoreLogic Dwelling Prices MoMMAR,,,,0.3%,3.0
+2025-04-02 20:00:00+05:30,US,EIA Distillate Fuel Production ChangeMAR/28,0.164M,-0.1M,,,3.0
+2025-04-02 20:00:00+05:30,US,EIA Heating Oil Stocks ChangeMAR/28,0.209M,-0.035M,,,3.0
+2025-04-02 21:00:00+05:30,US,17-Week Bill Auction,4.200%,4.200%,,,3.0
+2025-04-02 21:30:00+05:30,RU,Retail Sales YoYFEB,2.2%,5.4%,1.1%,1.5%,3.0
+2025-04-02 21:30:00+05:30,EA,ECB Consumer Inflation ExpectationsFEB,,2.6%,,2.7%,3.0
+>>>>>>> Stashed changes
 2025-04-02 21:30:00+05:30,AR,Tax RevenueFEB,ARS12733B,ARS13520.8B,,,3.0
 2025-04-02 21:30:00+05:30,RU,Business ConfidenceMAR,2.8,3.5,,6,3.0
 2025-04-02 21:30:00+05:30,IT,New Car Registrations YoYMAR,,-6.3%,,-4.2%,3.0
@@ -4307,31 +4500,44 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-03 05:20:00+05:30,JP,Foreign Bond InvestmentMAR/29,¥-5.9B,¥-233.7B,,,3.0
 2025-04-03 05:20:00+05:30,JP,Stock Investment by ForeignersMAR/29,¥-450.4B,¥-1200.6B,,,3.0
 2025-04-03 06:00:00+05:30,AU,Imports MoMFEB,1.6%,-0.4%,,,3.0
+<<<<<<< Updated upstream
 2025-04-03 06:00:00+05:30,AU,RBA Financial Stability Review,,,,,2.0
 2025-04-03 06:00:00+05:30,AU,Balance of TradeFEB,A$2.968B,A$5.156B,A$5.6B,A$5.1B,1.0
 2025-04-03 06:00:00+05:30,AU,Exports MoMFEB,-3.6%,0.8%,,,3.0
 2025-04-03 06:00:00+05:30,SG,S&P Global PMIMAR,52.7,51,,50.8,3.0
 2025-04-03 06:00:00+05:30,JP,Jibun Bank Composite PMI FinalMAR,48.9,52,,48.5,3.0
 2025-04-03 06:00:00+05:30,JP,Jibun Bank Services PMI FinalMAR,50.0,53.7,49.5,49.5,3.0
+=======
+2025-04-03 06:00:00+05:30,AU,Balance of TradeFEB,A$2.968B,A$5.156B,A$5.6B,A$5.1B,1.0
+2025-04-03 06:00:00+05:30,AU,Exports MoMFEB,-3.6%,0.8%,,,3.0
+2025-04-03 06:00:00+05:30,AU,RBA Financial Stability Review,,,,,2.0
+2025-04-03 06:00:00+05:30,SG,S&P Global PMIMAR,52.7,51,,50.8,3.0
+2025-04-03 06:00:00+05:30,JP,Jibun Bank Services PMI FinalMAR,50.0,53.7,49.5,49.5,3.0
+2025-04-03 06:00:00+05:30,JP,Jibun Bank Composite PMI FinalMAR,48.9,52,,48.5,3.0
+>>>>>>> Stashed changes
 2025-04-03 07:15:00+05:30,CN,Caixin Services PMIMAR,51.9,51.4,51.6,51.5,2.0
 2025-04-03 07:15:00+05:30,CN,Caixin Composite PMIMAR,51.8,51.5,,51.7,3.0
 2025-04-03 09:05:00+05:30,JP,10-Year JGB Auction,1.405%,1.404%,,,3.0
 2025-04-03 11:30:00+05:30,RU,S&P Global Composite PMIMAR,49.1,50.4,,53.5,3.0
 2025-04-03 11:30:00+05:30,RU,S&P Global Services PMIMAR,50.1,50.5,,53.8,3.0
+2025-04-03 12:30:00+05:30,TR,PPI YoYMAR,23.5%,25.21%,,24.9%,3.0
+2025-04-03 12:30:00+05:30,TR,PPI MoMMAR,1.88%,2.12%,,2.3%,3.0
 2025-04-03 12:30:00+05:30,TR,Inflation Rate YoYMAR,38.1%,39.05%,38.9%,38.5%,2.0
 2025-04-03 12:30:00+05:30,TR,Inflation Rate MoMMAR,2.46%,2.27%,3%,2.8%,2.0
-2025-04-03 12:30:00+05:30,TR,PPI MoMMAR,1.88%,2.12%,,2.3%,3.0
-2025-04-03 12:30:00+05:30,TR,PPI YoYMAR,23.5%,25.21%,,24.9%,3.0
 2025-04-03 12:45:00+05:30,ES,HCOB Services PMIMAR,54.7,56.2,55.5,55.8,2.0
 2025-04-03 12:45:00+05:30,ES,HCOB Composite PMIMAR,54,55.1,,54.7,3.0
 2025-04-03 12:45:00+05:30,ZA,S&P Global PMIMAR,48.3,49,,45,3.0
 2025-04-03 12:50:00+05:30,EA,ECB Guindos Speech,,,,,3.0
 2025-04-03 13:15:00+05:30,IT,HCOB Services PMIMAR,52,53,52.5,52.9,2.0
+<<<<<<< Updated upstream
 2025-04-03 13:15:00+05:30,IT,HCOB Composite PMIMAR,50.5,51.9,,51.7,3.0
 2025-04-03 13:20:00+05:30,FR,HCOB Composite PMI FinalMAR,48,45.1,47,47,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-03 13:20:00+05:30,FR,HCOB Services PMI FinalMAR,47.9,45.3,46.6,46.6,3.0
-2025-04-03 13:25:00+05:30,DE,HCOB Services PMI FinalMAR,50.9,51.1,50.2,50.2,3.0
+2025-04-03 13:20:00+05:30,FR,HCOB Composite PMI FinalMAR,48,45.1,47,47,3.0
 2025-04-03 13:25:00+05:30,DE,HCOB Composite PMI FinalMAR,51.3,50.4,50.9,50.9,3.0
+2025-04-03 13:25:00+05:30,DE,HCOB Services PMI FinalMAR,50.9,51.1,50.2,50.2,3.0
 2025-04-03 13:30:00+05:30,EA,HCOB Composite PMI FinalMAR,50.9,50.2,50.4,50.4,3.0
 2025-04-03 13:30:00+05:30,EA,HCOB Services PMI FinalMAR,51,50.6,50.4,50.4,3.0
 2025-04-03 14:00:00+05:30,GB,S&P Global Composite PMI FinalMAR,51.5,50.5,52,52,3.0
@@ -4340,19 +4546,32 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-03 14:10:00+05:30,ES,7-Year Obligacion Auction,2.809%,2.705%,,,3.0
 2025-04-03 14:10:00+05:30,ES,5-Year Index-Linked Obligacion Auction,0.700%,0.908%,,,3.0
 2025-04-03 14:10:00+05:30,ES,3-Year Bonos Auction,2.292%,2.487%,,,3.0
+<<<<<<< Updated upstream
 2025-04-03 14:30:00+05:30,FR,10-Year OAT Auction,3.37%,3.51%,,,3.0
 2025-04-03 14:30:00+05:30,EA,PPI YoYFEB,3%,1.7%,,3.4%,3.0
 2025-04-03 14:30:00+05:30,FR,8-Year OAT Auction,3.19%,3.23%,,,3.0
 2025-04-03 14:30:00+05:30,EA,PPI MoMFEB,0.2%,0.7%,0.1%,0.5%,3.0
 2025-04-03 14:30:00+05:30,FR,30-Year OAT Auction,4.04%,3.66%,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-03 14:30:00+05:30,GB,15-Year Treasury Gilt Auction,4.917%,4.836%,,,3.0
+2025-04-03 14:30:00+05:30,FR,8-Year OAT Auction,3.19%,3.23%,,,3.0
+2025-04-03 14:30:00+05:30,FR,10-Year OAT Auction,3.37%,3.51%,,,3.0
+2025-04-03 14:30:00+05:30,FR,30-Year OAT Auction,4.04%,3.66%,,,3.0
+2025-04-03 14:30:00+05:30,EA,PPI MoMFEB,0.2%,0.7%,0.1%,0.5%,3.0
+2025-04-03 14:30:00+05:30,EA,PPI YoYFEB,3%,1.7%,,3.4%,3.0
 2025-04-03 15:30:00+05:30,EA,ECB Schnabel Speech,,,,,3.0
 2025-04-03 17:00:00+05:30,IN,M3 Money Supply YoYMAR/21,9.6%,9.6%,,,3.0
 2025-04-03 17:00:00+05:30,TR,Foreign Exchange ReservesMAR/28,,$88.33B,,,3.0
+<<<<<<< Updated upstream
 2025-04-03 17:00:00+05:30,US,Challenger Job CutsMAR,275.24K,172.017K,,190.0K,3.0
 2025-04-03 17:30:00+05:30,MX,Gross Fixed Investment MoMJAN,-1.5%,-2.6%,,0.2%,3.0
 2025-04-03 17:30:00+05:30,MX,Gross Fixed Investment YoYJAN,-6.7%,-4%,,-6.0%,3.0
 2025-04-03 18:00:00+05:30,CA,ImportsFEB,C$71.63B,C$71.08B,,C$69.0B,3.0
+=======
+2025-04-03 17:30:00+05:30,MX,Gross Fixed Investment YoYJAN,-6.7%,-4%,,-6.0%,3.0
+2025-04-03 17:30:00+05:30,MX,Gross Fixed Investment MoMJAN,-1.5%,-2.6%,,0.2%,3.0
+>>>>>>> Stashed changes
 2025-04-03 18:00:00+05:30,US,Initial Jobless ClaimsMAR/29,219K,225K,225K,226.0K,2.0
 2025-04-03 18:00:00+05:30,CA,ExportsFEB,C$70.11B,C$74.21B,,C$71.6B,3.0
 2025-04-03 18:00:00+05:30,US,Jobless Claims 4-week AverageMAR/29,223K,224.25K,,227.0K,3.0
@@ -4364,10 +4583,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-03 18:30:00+05:30,BR,S&P Global Services PMIMAR,52.5,50.6,,49.8,2.0
 2025-04-03 18:30:00+05:30,BR,S&P Global Composite PMIMAR,52.6,51.2,,50.4,3.0
 2025-04-03 19:00:00+05:30,CA,S&P Global Composite PMIMAR,42,46.8,,46,3.0
+<<<<<<< Updated upstream
 2025-04-03 19:00:00+05:30,CA,S&P Global Services PMIMAR,41.2,46.6,,46,3.0
 2025-04-03 19:15:00+05:30,US,S&P Global Composite PMI FinalMAR,53.5,51.6,53.5,53.5,3.0
 2025-04-03 19:15:00+05:30,US,S&P Global Services PMI FinalMAR,54.4,51,54.3,54.3,3.0
 2025-04-03 19:30:00+05:30,US,ISM Services New OrdersMAR,50.4,52.2,,52,3.0
+=======
+2025-04-03 19:15:00+05:30,US,S&P Global Services PMI FinalMAR,54.4,51,54.3,54.3,3.0
+2025-04-03 19:15:00+05:30,US,S&P Global Composite PMI FinalMAR,53.5,51.6,53.5,53.5,3.0
+>>>>>>> Stashed changes
 2025-04-03 19:30:00+05:30,US,ISM Services PMIMAR,50.8,53.5,53,53,1.0
 2025-04-03 19:30:00+05:30,US,ISM Services PricesMAR,60.9,62.6,,64,3.0
 2025-04-03 19:30:00+05:30,US,ISM Services Business ActivityMAR,55.9,54.4,,54,3.0
@@ -4382,9 +4606,17 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-03 22:00:00+05:30,US,Fed Jefferson Speech,,,,,2.0
 2025-04-03 22:00:00+05:30,IT,New Car Registrations YoYMAR,,-6.3%,,-4.2%,2.0
 2025-04-03 22:00:00+05:30,EA,ECB Monetary Policy Meeting Accounts,,,,,2.0
+<<<<<<< Updated upstream
 2025-04-03 22:00:00+05:30,IN,M3 Money Supply YoYMAR/21,,9.6%,,,2.0
 2025-04-03 22:00:00+05:30,OP,OPEC and non-OPEC Ministerial Meeting,,,,,2.0
 2025-04-03 22:00:00+05:30,RU,GDP YoYFEB,,,,3.3%,2.0
+=======
+2025-04-03 22:00:00+05:30,US,Fed Jefferson Speech,,,,,2.0
+2025-04-03 22:00:00+05:30,IT,New Car Registrations YoYMAR,,-6.3%,,-4.2%,2.0
+2025-04-03 22:00:00+05:30,RU,GDP YoYFEB,,,,3.3%,2.0
+2025-04-03 22:00:00+05:30,IN,M3 Money Supply YoYMAR/21,,9.6%,,,2.0
+2025-04-03 22:00:00+05:30,OP,OPEC and non-OPEC Ministerial Meeting,,,,,2.0
+>>>>>>> Stashed changes
 2025-04-04 00:00:00+05:30,US,Fed Cook Speech,,,,,2.0
 2025-04-04 00:30:00+05:30,AR,Tax RevenueMAR,,ARS12733B,,,3.0
 2025-04-04 02:00:00+05:30,US,Fed Balance SheetAPR/02,$6.72T,$6.74T,,,3.0
@@ -4421,6 +4653,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-04 17:00:00+05:30,IN,Foreign Exchange ReservesMAR/28,$665.4B,$658.8B,,,3.0
 2025-04-04 17:00:00+05:30,TR,Foreign Exchange ReservesMAR/28,,$88.33B,,,3.0
 2025-04-04 17:30:00+05:30,MX,Consumer ConfidenceMAR,46,46.3,,45.8,2.0
+<<<<<<< Updated upstream
 2025-04-04 18:00:00+05:30,US,Average Hourly Earnings MoMMAR,0.3%,0.2%,0.3%,0.3%,2.0
 2025-04-04 18:00:00+05:30,US,Participation RateMAR,62.5%,62.4%,,62.4%,2.0
 2025-04-04 18:00:00+05:30,US,Government PayrollsMAR,19K,1K,,-5.0K,3.0
@@ -4437,6 +4670,24 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-04 18:00:00+05:30,CA,Part Time Employment ChgMAR,29.5K,20.8K,,10.0K,2.0
 2025-04-04 18:00:00+05:30,CA,Full Time Employment ChgMAR,-62K,-19.7K,,15K,2.0
 2025-04-04 18:00:00+05:30,US,Manufacturing PayrollsMAR,1K,8K,4K,1.0K,3.0
+=======
+2025-04-04 18:00:00+05:30,US,Government PayrollsMAR,19K,1K,,-5.0K,3.0
+2025-04-04 18:00:00+05:30,US,Average Weekly HoursMAR,34.2,34.2,34.2,34.2,3.0
+2025-04-04 18:00:00+05:30,US,Nonfarm Payrolls PrivateMAR,209K,116K,127K,105.0K,3.0
+2025-04-04 18:00:00+05:30,US,U-6 Unemployment RateMAR,7.9%,8%,,8.1%,3.0
+2025-04-04 18:00:00+05:30,CA,Unemployment RateMAR,6.7%,6.6%,6.7%,6.7%,1.0
+2025-04-04 18:00:00+05:30,US,Average Hourly Earnings YoYMAR,3.8%,4%,3.9%,4.0%,2.0
+2025-04-04 18:00:00+05:30,CA,Participation RateMAR,65.2%,65.3%,,65.2%,2.0
+2025-04-04 18:00:00+05:30,CA,Part Time Employment ChgMAR,29.5K,20.8K,,10.0K,2.0
+2025-04-04 18:00:00+05:30,US,Non Farm PayrollsMAR,228K,117K,135K,100.0K,1.0
+2025-04-04 18:00:00+05:30,US,Unemployment RateMAR,4.2%,4.1%,4.1%,4.2%,1.0
+2025-04-04 18:00:00+05:30,CA,Average Hourly Wages YoYMAR,3.5%,4%,,4.0%,3.0
+2025-04-04 18:00:00+05:30,US,Participation RateMAR,62.5%,62.4%,,62.4%,2.0
+2025-04-04 18:00:00+05:30,CA,Full Time Employment ChgMAR,-62K,-19.7K,,15K,2.0
+2025-04-04 18:00:00+05:30,US,Manufacturing PayrollsMAR,1K,8K,4K,1.0K,3.0
+2025-04-04 18:00:00+05:30,US,Average Hourly Earnings MoMMAR,0.3%,0.2%,0.3%,0.3%,2.0
+2025-04-04 18:00:00+05:30,CA,Employment ChangeMAR,-32.6K,1.1K,12K,25K,2.0
+>>>>>>> Stashed changes
 2025-04-04 19:30:00+05:30,WL,Global Supply Chain Pressure IndexMAR,-0.18,0.01,,,3.0
 2025-04-04 20:55:00+05:30,US,Fed Chair Powell Speech,,,,,1.0
 2025-04-04 21:30:00+05:30,US,Fed Barr Speech,,,,,2.0
@@ -4444,6 +4695,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-04 22:30:00+05:30,US,Baker Hughes Total Rigs CountAPR/04,590,592,,,3.0
 2025-04-04 22:30:00+05:30,US,Baker Hughes Oil Rig CountAPR/04,489,484,483,,3.0
 2025-04-04 23:30:00+05:30,TR,Imports PrelMAR,,$28.53B,,$29.1B,2.0
+<<<<<<< Updated upstream
 2025-04-04 23:30:00+05:30,JP,Foreign Exchange ReservesMAR,,$1253.3B,,,2.0
 2025-04-04 23:30:00+05:30,FR,New Car Registrations YoYMAR,,-0.7%,,-3.6%,2.0
 2025-04-04 23:30:00+05:30,TR,Foreign Exchange ReservesMAR/28,,$88.33B,,,2.0
@@ -4453,34 +4705,63 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-04 23:30:00+05:30,WL,Global Supply Chain Pressure IndexMAR,,-0.07,,,2.0
 2025-04-04 23:30:00+05:30,DE,New Car Registrations YoYMAR,,-6.4%,,-4.3%,2.0
 2025-04-04 23:30:00+05:30,RU,Vehicle Sales YoYMAR,,-25.7%,,,2.0
+=======
+2025-04-04 23:30:00+05:30,TR,Exports PrelMAR,,$20.76B,,$ 23.2B,2.0
+2025-04-04 23:30:00+05:30,FR,New Car Registrations YoYMAR,,-0.7%,,-3.6%,2.0
+2025-04-04 23:30:00+05:30,TR,Foreign Exchange ReservesMAR/28,,$88.33B,,,2.0
+2025-04-04 23:30:00+05:30,JP,Foreign Exchange ReservesMAR,,$1253.3B,,,2.0
+2025-04-04 23:30:00+05:30,TR,Balance of Trade PrelMAR,,$-7.77B,,$ -5.9B,2.0
+2025-04-04 23:30:00+05:30,BR,Balance of TradeMAR,$8.15B,$-0.32B,,$ 0.35B,2.0
+2025-04-04 23:30:00+05:30,WL,Global Supply Chain Pressure IndexMAR,,-0.07,,,2.0
+2025-04-04 23:30:00+05:30,RU,Vehicle Sales YoYMAR,,-25.7%,,,2.0
+2025-04-04 23:30:00+05:30,DE,New Car Registrations YoYMAR,,-6.4%,,-4.3%,2.0
+>>>>>>> Stashed changes
 2025-04-05 14:45:00+05:30,EA,ECB Schnabel Speech,,,,,3.0
-2025-04-07 05:00:00+05:30,JP,Overtime Pay YoYFEB,2.2%,3.1%,,0.4%,3.0
 2025-04-07 05:00:00+05:30,JP,Average Cash Earnings YoYFEB,3.1%,1.8%,3.1%,2.9%,3.0
+2025-04-07 05:00:00+05:30,JP,Overtime Pay YoYFEB,2.2%,3.1%,,0.4%,3.0
 2025-04-07 05:20:00+05:30,JP,Foreign Exchange ReservesMAR,$1272.5B,$1253.3B,,,3.0
+<<<<<<< Updated upstream
+=======
+2025-04-07 06:00:00+05:30,AU,ANZ-Indeed Job Ads MoMMAR,,-1.4%,,0.9%,3.0
+2025-04-07 06:00:00+05:30,AU,Westpac Consumer Confidence IndexAPR,,95.9,,,2.0
+>>>>>>> Stashed changes
 2025-04-07 06:00:00+05:30,AU,Westpac Consumer Confidence ChangeAPR,,4%,,,1.0
 2025-04-07 06:00:00+05:30,AU,ANZ-Indeed Job Ads MoMMAR,,-1.4%,,0.9%,3.0
 2025-04-07 06:00:00+05:30,AU,Westpac Consumer Confidence IndexAPR,,95.9,,,2.0
 2025-04-07 07:00:00+05:30,AU,ANZ-Indeed Job Ads MoMMAR,0.4%,-1.3%,,0.9%,3.0
 2025-04-07 07:30:00+05:30,CN,Foreign Exchange ReservesMAR,$3.241T,$3.227T,,$ 3.3T,3.0
 2025-04-07 09:45:00+05:30,SA,Riyad Bank PMIMAR,58.1,58.4,,57,3.0
-2025-04-07 10:30:00+05:30,KR,3-Year KTB Auction,,2.586%,,,3.0
-2025-04-07 10:30:00+05:30,JP,Coincident Index PrelFEB,116.9,116.1,,115.8,3.0
 2025-04-07 10:30:00+05:30,JP,Leading Economic Index PrelFEB,107.9,108.2,107.8,107.9,3.0
+2025-04-07 10:30:00+05:30,JP,Coincident Index PrelFEB,116.9,116.1,,115.8,3.0
+2025-04-07 10:30:00+05:30,KR,3-Year KTB Auction,,2.586%,,,3.0
 2025-04-07 11:15:00+05:30,KR,3-Year KTB Auction,2.420%,2.586%,,,3.0
+<<<<<<< Updated upstream
 2025-04-07 11:30:00+05:30,GB,Halifax House Price Index YoYMAR,2.8%,2.8%,,3.7%,2.0
 2025-04-07 11:30:00+05:30,GB,Halifax House Price Index MoMMAR,-0.5%,-0.2%,0.2%,0.2%,2.0
 2025-04-07 11:30:00+05:30,ZA,Foreign Exchange ReservesMAR,$67.45B,$66.26B,,$ 65.7B,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-07 11:30:00+05:30,DE,Balance of TradeFEB,€17.7B,€16.2B,€17.8B,€17.4B,1.0
+2025-04-07 11:30:00+05:30,DE,Exports MoMFEB,1.8%,0%,,1.5%,2.0
 2025-04-07 11:30:00+05:30,DE,Industrial Production MoMFEB,-1.3%,2%,-1.1%,-1.2%,2.0
+<<<<<<< Updated upstream
 2025-04-07 11:30:00+05:30,DE,Exports MoMFEB,1.8%,0%,,1.5%,2.0
 2025-04-07 11:30:00+05:30,DE,Imports MoMFEB,0.7%,5%,,0.6%,3.0
+=======
+2025-04-07 11:30:00+05:30,DE,Imports MoMFEB,0.7%,5%,,0.6%,3.0
+2025-04-07 11:30:00+05:30,ZA,Foreign Exchange ReservesMAR,$67.45B,$66.26B,,$ 65.7B,3.0
+2025-04-07 11:30:00+05:30,GB,Halifax House Price Index MoMMAR,-0.5%,-0.2%,0.2%,0.2%,2.0
+2025-04-07 11:30:00+05:30,GB,Halifax House Price Index YoYMAR,2.8%,2.8%,,3.7%,2.0
+>>>>>>> Stashed changes
 2025-04-07 12:15:00+05:30,FR,Foreign Exchange ReservesMAR,€305.12B,€295.98B,,€297B,3.0
 2025-04-07 14:30:00+05:30,EA,Retail Sales YoYFEB,2.3%,1.8%,1.8%,2.1%,3.0
+2025-04-07 14:30:00+05:30,EA,Retail Sales MoMFEB,0.3%,0%,0.5%,0.6%,2.0
 2025-04-07 14:30:00+05:30,SG,Foreign Exchange ReservesMAR,S$512.2B,S$511.6B,,,3.0
 2025-04-07 14:30:00+05:30,GB,BBA Mortgage RateMAR,7.23%,7.33%,,7.3%,3.0
 2025-04-07 14:30:00+05:30,EA,Retail Sales MoMFEB,0.3%,0%,0.5%,0.6%,2.0
 2025-04-07 15:15:00+05:30,EA,ECB Cipollone Speech,,,,,3.0
 2025-04-07 17:00:00+05:30,TR,Foreign Exchange ReservesMAR/28,$80.61B,$88.33B,,,3.0
+<<<<<<< Updated upstream
 2025-04-07 17:30:00+05:30,MX,Auto Exports YoYMAR,3.8%,-9.2%,,-8.0%,3.0
 2025-04-07 17:30:00+05:30,MX,Auto Production YoYMAR,12.1%,-0.8%,,-1.0%,3.0
 2025-04-07 18:30:00+05:30,FR,12-Month BTF Auction,1.996%,2.131%,,,3.0
@@ -4498,30 +4779,69 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-07 21:00:00+05:30,CN,Foreign Exchange ReservesMAR,,$3.227T,,$ 3.3T,3.0
 2025-04-07 21:00:00+05:30,US,Used Car Prices MoMMAR,,-0.7%,,,3.0
 2025-04-07 21:00:00+05:30,KR,3-Year KTB Auction,,2.586%,,,3.0
+=======
+2025-04-07 17:30:00+05:30,MX,Auto Production YoYMAR,12.1%,-0.8%,,-1.0%,3.0
+2025-04-07 17:30:00+05:30,MX,Auto Exports YoYMAR,3.8%,-9.2%,,-8.0%,3.0
+2025-04-07 18:30:00+05:30,FR,3-Month BTF Auction,2.212%,2.244%,,,3.0
+2025-04-07 18:30:00+05:30,FR,12-Month BTF Auction,1.996%,2.131%,,,3.0
+2025-04-07 18:30:00+05:30,RU,Foreign Exchange ReservesMAR,$647.4B,$632.4B,,$625.0B,3.0
+2025-04-07 18:30:00+05:30,FR,6-Month BTF Auction,2.092%,2.211%,,,3.0
+2025-04-07 19:15:00+05:30,US,Used Car Prices MoMMAR,-0.7%,-0.7%,,,3.0
+2025-04-07 19:15:00+05:30,US,Used Car Prices YoYMAR,-0.2%,0.1%,,,3.0
+2025-04-07 20:00:00+05:30,CA,BoC Business Outlook Survey,,,,,2.0
+2025-04-07 20:00:00+05:30,US,Fed Kugler Speech,,,,,2.0
+2025-04-07 21:00:00+05:30,US,Used Car Prices YoYMAR,,0.1%,,,3.0
+2025-04-07 21:00:00+05:30,US,Used Car Prices MoMMAR,,-0.7%,,,3.0
+2025-04-07 21:00:00+05:30,TR,Foreign Exchange ReservesMAR/28,,$88.33B,,,3.0
+2025-04-07 21:00:00+05:30,US,6-Month Bill Auction,,4.070%,,,3.0
+2025-04-07 21:00:00+05:30,US,3-Month Bill Auction,,4.205%,,,3.0
+2025-04-07 21:00:00+05:30,CN,Foreign Exchange ReservesMAR,,$3.227T,,$ 3.3T,3.0
+2025-04-07 21:00:00+05:30,KR,3-Year KTB Auction,,2.586%,,,3.0
+2025-04-07 21:00:00+05:30,BR,BCB Focus Market Readout,,,,,3.0
+2025-04-07 21:00:00+05:30,ID,Motorbike Sales YoYMAR,,4.0%,,,3.0
+>>>>>>> Stashed changes
 2025-04-08 00:30:00+05:30,US,Consumer Credit ChangeFEB,,$18.08B,$15.2B,$15.0B,3.0
 2025-04-08 04:30:00+05:30,KR,Current AccountFEB,,$2.94B,,$4.7B,3.0
 2025-04-08 05:20:00+05:30,JP,Current AccountFEB,,¥-257.6B,¥3800B,¥3600B,2.0
 2025-04-08 05:20:00+05:30,JP,Bank Lending YoYMAR,,3.1%,3.1%,2.8%,3.0
-2025-04-08 06:00:00+05:30,AU,Westpac Consumer Confidence IndexAPR,,95.9,,95,2.0
 2025-04-08 06:00:00+05:30,AU,Westpac Consumer Confidence ChangeAPR,,4%,,-0.9%,1.0
+2025-04-08 06:00:00+05:30,AU,Westpac Consumer Confidence IndexAPR,,95.9,,95,2.0
 2025-04-08 07:00:00+05:30,AU,NAB Business ConfidenceMAR,,-1,,-3,1.0
 2025-04-08 09:05:00+05:30,JP,30-Year JGB Auction,,2.500%,,,3.0
+2025-04-08 09:30:00+05:30,ID,Tourist Arrivals YoYFEB,,,,,3.0
 2025-04-08 09:30:00+05:30,ID,Inflation Rate YoYMAR,,-0.09%,1.16%,1.3%,2.0
 2025-04-08 09:30:00+05:30,ID,Inflation Rate MoMMAR,,-0.48%,1.79%,1.9%,3.0
+<<<<<<< Updated upstream
 2025-04-08 09:30:00+05:30,ID,Core Inflation Rate YoYMAR,,2.48%,2.50%,2.5%,3.0
 2025-04-08 09:30:00+05:30,ID,Tourist Arrivals YoYFEB,,,,,3.0
 2025-04-08 10:30:00+05:30,ID,Tourist Arrivals YoYJAN,,8.72%,,10.0%,3.0
+=======
+2025-04-08 10:30:00+05:30,ID,Tourist Arrivals YoYJAN,,8.72%,,10.0%,3.0
+2025-04-08 10:30:00+05:30,JP,Eco Watchers Survey CurrentMAR,,45.6,45.3,45,3.0
+2025-04-08 10:30:00+05:30,SG,MAS 12-Week Bill Auction,,2.61%,,,3.0
+2025-04-08 10:30:00+05:30,SG,MAS 4-Week Bill Auction,,2.62%,,,3.0
+>>>>>>> Stashed changes
 2025-04-08 10:30:00+05:30,JP,Eco Watchers Survey OutlookMAR,,46.6,,46,3.0
 2025-04-08 10:30:00+05:30,JP,Eco Watchers Survey CurrentMAR,,45.6,45.3,45,3.0
 2025-04-08 10:30:00+05:30,SG,MAS 4-Week Bill Auction,,2.62%,,,3.0
 2025-04-08 10:30:00+05:30,SG,MAS 12-Week Bill Auction,,2.61%,,,3.0
 2025-04-08 11:30:00+05:30,ZA,Foreign Exchange ReservesMAR,,$66.26B,,$ 65.7B,3.0
-2025-04-08 12:15:00+05:30,FR,Current AccountFEB,,€-2.2B,,€-0.6B,3.0
+<<<<<<< Updated upstream
+=======
 2025-04-08 12:15:00+05:30,FR,ExportsFEB,,€49.836B,,€51.5B,3.0
+2025-04-08 12:15:00+05:30,FR,Balance of TradeFEB,,€-6.5B,€-5.4B,€-5.5B,2.0
+>>>>>>> Stashed changes
+2025-04-08 12:15:00+05:30,FR,Current AccountFEB,,€-2.2B,,€-0.6B,3.0
 2025-04-08 12:15:00+05:30,FR,ImportsFEB,,€56.4B,,€57.0B,3.0
+<<<<<<< Updated upstream
 2025-04-08 12:15:00+05:30,FR,Balance of TradeFEB,,€-6.5B,€-5.4B,€-5.5B,2.0
 2025-04-08 14:10:00+05:30,ES,12-Month Letras Auction,,2.173%,,,3.0
 2025-04-08 14:10:00+05:30,ES,6-Month Letras Auction,,2.255%,,,3.0
+=======
+2025-04-08 14:10:00+05:30,ES,6-Month Letras Auction,,2.255%,,,3.0
+2025-04-08 14:10:00+05:30,ES,12-Month Letras Auction,,2.173%,,,3.0
+2025-04-08 14:30:00+05:30,EA,ECB Guindos Speech,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-08 14:30:00+05:30,GB,30-Year Treasury Gilt Auction,,5.104%,,,3.0
 2025-04-08 14:30:00+05:30,EA,ECB Guindos Speech,,,,,3.0
 2025-04-08 15:00:00+05:30,DE,10-Year Bund/g Auction,,2.16%,,,3.0
@@ -4534,14 +4854,22 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-08 19:30:00+05:30,BR,Car Production MoMMAR,,23.8%,,-11.0%,3.0
 2025-04-08 19:30:00+05:30,CA,Ivey PMI s.aMAR,,55.3,53.2,48,1.0
 2025-04-08 19:30:00+05:30,EA,ECB Cipollone Speech,,,,,3.0
+2025-04-08 19:30:00+05:30,BR,Car Production MoMMAR,,23.8%,,-11.0%,3.0
 2025-04-08 20:00:00+05:30,TR,Treasury Cash BalanceMAR,,TRY-397.602B,,TRY-200.0B,3.0
 2025-04-08 22:30:00+05:30,ID,Tourist Arrivals YoYFEB,,,,,3.0
 2025-04-08 22:30:00+05:30,ID,Tourist Arrivals YoYJAN,,8.72%,,10.0%,3.0
+<<<<<<< Updated upstream
 2025-04-08 22:30:00+05:30,US,3-Year Note Auction,,3.908%,,,3.0
 2025-04-08 23:30:00+05:30,ID,Motorbike Sales YoYMAR,,4.0%,,,2.0
 2025-04-08 23:30:00+05:30,ID,Tourist Arrivals YoYJAN,,8.72%,,10.0%,2.0
 2025-04-08 23:30:00+05:30,ID,Tourist Arrivals YoYFEB,,,,,2.0
 2025-04-08 23:30:00+05:30,US,Fed Daly Speech,,,,,2.0
+=======
+2025-04-08 23:30:00+05:30,ID,Tourist Arrivals YoYFEB,,,,,2.0
+2025-04-08 23:30:00+05:30,US,Fed Daly Speech,,,,,2.0
+2025-04-08 23:30:00+05:30,ID,Motorbike Sales YoYMAR,,4.0%,,,2.0
+2025-04-08 23:30:00+05:30,ID,Tourist Arrivals YoYJAN,,8.72%,,10.0%,2.0
+>>>>>>> Stashed changes
 2025-04-09 02:00:00+05:30,US,API Crude Oil Stock ChangeAPR/04,,6.037M,,,2.0
 2025-04-09 07:00:00+05:30,AU,Building Permits MoM FinalFEB,,6.9%,-0.3%,-0.3%,3.0
 2025-04-09 07:00:00+05:30,AU,Private House Approvals MoM FinalFEB,,1.4%,1.0%,1.0%,3.0
@@ -4552,22 +4880,33 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-09 11:30:00+05:30,JP,Machine Tool Orders YoYMAR,,3.5%,,0.5%,3.0
 2025-04-09 11:45:00+05:30,JP,BOJ Gov Ueda Speech,,,,,2.0
 2025-04-09 14:30:00+05:30,GB,5-Year Treasury Gilt Auction,,4.311%,,,3.0
-2025-04-09 16:30:00+05:30,US,MBA Mortgage Refinance IndexAPR/04,,710.4,,,3.0
-2025-04-09 16:30:00+05:30,US,MBA Purchase IndexAPR/04,,158.2,,,3.0
-2025-04-09 16:30:00+05:30,US,MBA Mortgage Market IndexAPR/04,,243.6,,,3.0
-2025-04-09 16:30:00+05:30,US,MBA Mortgage ApplicationsAPR/04,,-1.6%,,,3.0
 2025-04-09 16:30:00+05:30,US,MBA 30-Year Mortgage RateAPR/04,,6.7%,,,2.0
+2025-04-09 16:30:00+05:30,US,MBA Mortgage ApplicationsAPR/04,,-1.6%,,,3.0
+2025-04-09 16:30:00+05:30,US,MBA Mortgage Market IndexAPR/04,,243.6,,,3.0
+2025-04-09 16:30:00+05:30,US,MBA Purchase IndexAPR/04,,158.2,,,3.0
+2025-04-09 16:30:00+05:30,US,MBA Mortgage Refinance IndexAPR/04,,710.4,,,3.0
 2025-04-09 17:00:00+05:30,BR,Bank Lending MoMFEB,,0%,,0.2%,3.0
+<<<<<<< Updated upstream
 2025-04-09 17:30:00+05:30,MX,Inflation Rate YoYMAR,,3.77%,,3.7%,2.0
 2025-04-09 17:30:00+05:30,BR,PPI MoMFEB,,0.13%,,-0.3%,3.0
 2025-04-09 17:30:00+05:30,BR,Retail Sales MoMFEB,,-0.1%,,0.2%,2.0
 2025-04-09 17:30:00+05:30,BR,PPI YoYFEB,,9.69%,,9.2%,3.0
 2025-04-09 17:30:00+05:30,MX,Inflation Rate MoMMAR,,0.28%,,0.2%,2.0
 2025-04-09 17:30:00+05:30,BR,Retail Sales YoYFEB,,3.1%,,2.0%,3.0
+=======
+2025-04-09 17:30:00+05:30,BR,Retail Sales MoMFEB,,-0.1%,,0.2%,2.0
+2025-04-09 17:30:00+05:30,BR,PPI MoMFEB,,0.13%,,-0.3%,3.0
+2025-04-09 17:30:00+05:30,BR,Retail Sales YoYFEB,,3.1%,,2.0%,3.0
+2025-04-09 17:30:00+05:30,MX,Inflation Rate YoYMAR,,3.77%,,3.7%,2.0
+2025-04-09 17:30:00+05:30,BR,PPI YoYFEB,,9.69%,,9.2%,3.0
+2025-04-09 17:30:00+05:30,MX,Inflation Rate MoMMAR,,0.28%,,0.2%,2.0
+2025-04-09 17:30:00+05:30,MX,Core Inflation Rate MoMMAR,,0.48%,,0.4%,3.0
+>>>>>>> Stashed changes
 2025-04-09 17:30:00+05:30,MX,Core Inflation Rate YoYMAR,,3.65%,,3.6%,3.0
 2025-04-09 17:30:00+05:30,MX,Core Inflation Rate MoMMAR,,0.48%,,0.4%,3.0
 2025-04-09 18:00:00+05:30,EA,ECB Cipollone Speech,,,,,3.0
 2025-04-09 19:30:00+05:30,US,Wholesale Inventories MoMFEB,,0.8%,0.3%,0.3%,3.0
+<<<<<<< Updated upstream
 2025-04-09 20:00:00+05:30,US,EIA Gasoline Production ChangeAPR/04,,0.062M,,,3.0
 2025-04-09 20:00:00+05:30,US,EIA Gasoline Stocks ChangeAPR/04,,-1.551M,,,2.0
 2025-04-09 20:00:00+05:30,US,EIA Crude Oil Stocks ChangeAPR/04,,6.165M,,,2.0
@@ -4577,19 +4916,37 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-09 20:00:00+05:30,US,EIA Cushing Crude Oil Stocks ChangeAPR/04,,2.373M,,,3.0
 2025-04-09 20:00:00+05:30,US,EIA Refinery Crude Runs ChangeAPR/04,,-0.192M,,,3.0
 2025-04-09 20:00:00+05:30,US,EIA Heating Oil Stocks ChangeAPR/04,,0.209M,,,3.0
+=======
+2025-04-09 20:00:00+05:30,US,EIA Refinery Crude Runs ChangeAPR/04,,-0.192M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Gasoline Production ChangeAPR/04,,0.062M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Distillate Stocks ChangeAPR/04,,0.264M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Heating Oil Stocks ChangeAPR/04,,0.209M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Cushing Crude Oil Stocks ChangeAPR/04,,2.373M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Crude Oil Imports ChangeAPR/04,,0.999M,,,3.0
+2025-04-09 20:00:00+05:30,US,EIA Gasoline Stocks ChangeAPR/04,,-1.551M,,,2.0
+2025-04-09 20:00:00+05:30,US,EIA Crude Oil Stocks ChangeAPR/04,,6.165M,,,2.0
+2025-04-09 20:00:00+05:30,US,EIA Distillate Fuel Production ChangeAPR/04,,0.164M,,,3.0
+>>>>>>> Stashed changes
 2025-04-09 21:00:00+05:30,US,17-Week Bill Auction,,4.200%,,,3.0
-2025-04-09 21:30:00+05:30,RU,GDP Growth Rate YoYQ4,,3.1%,,3.5%,2.0
 2025-04-09 21:30:00+05:30,CA,2-Year Bond Auction,,2.563%,,,3.0
+2025-04-09 21:30:00+05:30,RU,GDP Growth Rate YoYQ4,,3.1%,,3.5%,2.0
 2025-04-09 22:00:00+05:30,US,Fed Barkin Speech,,,,,2.0
 2025-04-09 22:30:00+05:30,US,10-Year Note Auction,,4.310%,,,3.0
 2025-04-09 23:30:00+05:30,US,FOMC Minutes,,,,,1.0
 2025-04-10 00:30:00+05:30,AR,Industrial Production YoYFEB,,7.1%,,6.8%,3.0
 2025-04-10 04:30:00+05:30,KR,Unemployment RateMAR,,2.7%,,2.7%,2.0
 2025-04-10 04:31:00+05:30,GB,RICS House Price BalanceMAR,,11%,8%,10.0%,2.0
+<<<<<<< Updated upstream
 2025-04-10 05:20:00+05:30,JP,Stock Investment by ForeignersAPR/05,,¥-450.4B,,,3.0
 2025-04-10 05:20:00+05:30,JP,PPI YoYMAR,,4%,3.9%,4.2%,3.0
 2025-04-10 05:20:00+05:30,JP,PPI MoMMAR,,0.0%,,0.3%,3.0
 2025-04-10 05:20:00+05:30,JP,Foreign Bond InvestmentAPR/05,,¥-5.9B,,,3.0
+=======
+2025-04-10 05:20:00+05:30,JP,PPI YoYMAR,,4%,3.9%,4.2%,3.0
+2025-04-10 05:20:00+05:30,JP,PPI MoMMAR,,0.0%,,0.3%,3.0
+2025-04-10 05:20:00+05:30,JP,Foreign Bond InvestmentAPR/05,,¥-5.9B,,,3.0
+2025-04-10 05:20:00+05:30,JP,Stock Investment by ForeignersAPR/05,,¥-450.4B,,,3.0
+>>>>>>> Stashed changes
 2025-04-10 06:30:00+05:30,AU,Consumer Inflation ExpectationsAPR,,3.6%,,3.6%,3.0
 2025-04-10 07:00:00+05:30,CN,PPI YoYMAR,,-2.2%,-2.3%,-2.0%,2.0
 2025-04-10 07:00:00+05:30,CN,Inflation Rate MoMMAR,,-0.2%,,-0.4%,2.0
@@ -4597,16 +4954,26 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-10 09:05:00+05:30,JP,5-Year JGB Auction,,1.157%,,,3.0
 2025-04-10 10:30:00+05:30,SG,6-Month T-Bill Auction,,2.73%,,,3.0
 2025-04-10 11:45:00+05:30,EA,ECB Montagner Speech,,,,,3.0
-2025-04-10 12:30:00+05:30,TR,Industrial Production MoMFEB,,-2.3%,,1.5%,3.0
 2025-04-10 12:30:00+05:30,TR,Industrial Production YoYFEB,,1.2%,,-2.0%,2.0
+<<<<<<< Updated upstream
+=======
+2025-04-10 12:30:00+05:30,TR,Industrial Production MoMFEB,,-2.3%,,1.5%,3.0
+>>>>>>> Stashed changes
 2025-04-10 13:30:00+05:30,IT,Industrial Production MoMFEB,,3.2%,-1%,-1.8%,2.0
 2025-04-10 13:30:00+05:30,IT,Industrial Production YoYFEB,,-0.6%,,-1%,3.0
 2025-04-10 14:10:00+05:30,ES,10-Year Obligacion Auction,,3.382%,,,3.0
 2025-04-10 14:10:00+05:30,ES,4-Year Obligacion Auction,,2.463%,,,3.0
+<<<<<<< Updated upstream
 2025-04-10 14:10:00+05:30,ES,Index-Linked Obligacion Auction,,,,,3.0
 2025-04-10 14:10:00+05:30,ES,Obligacion Auction,,,,,3.0
 2025-04-10 14:10:00+05:30,ES,Bonos Auction,,,,,3.0
 2025-04-10 14:10:00+05:30,ES,7-Year Obligacion Auction,,3.067%,,,3.0
+=======
+2025-04-10 14:10:00+05:30,ES,7-Year Obligacion Auction,,3.067%,,,3.0
+2025-04-10 14:10:00+05:30,ES,Index-Linked Obligacion Auction,,,,,3.0
+2025-04-10 14:10:00+05:30,ES,Obligacion Auction,,,,,3.0
+2025-04-10 14:10:00+05:30,ES,Bonos Auction,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-10 14:40:00+05:30,IT,12-Month BOT Auction,,2.337%,,,3.0
 2025-04-10 14:45:00+05:30,EA,ECB Tuominen Speech,,,,,3.0
 2025-04-10 15:30:00+05:30,AU,RBA Bullock Speech,,,,,2.0
@@ -4622,18 +4989,37 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-10 18:00:00+05:30,US,CPIMAR,,319.082,,320.1,2.0
 2025-04-10 18:00:00+05:30,US,Inflation Rate YoYMAR,,2.8%,2.6%,2.5%,1.0
 2025-04-10 18:00:00+05:30,US,Inflation Rate MoMMAR,,0.2%,0.2%,0.1%,1.0
+<<<<<<< Updated upstream
 2025-04-10 18:00:00+05:30,US,Core Inflation Rate MoMMAR,,0.2%,0.3%,0.3%,1.0
 2025-04-10 18:00:00+05:30,CA,Building Permits MoMFEB,,-3.2%,-0.8%,0.3%,3.0
+=======
+2025-04-10 18:00:00+05:30,US,Inflation Rate YoYMAR,,2.8%,2.6%,2.5%,1.0
+2025-04-10 18:00:00+05:30,US,CPIMAR,,319.082,,320.1,2.0
+2025-04-10 18:00:00+05:30,US,CPI s.aMAR,,319.775,,320.1,2.0
+2025-04-10 18:00:00+05:30,US,Initial Jobless ClaimsAPR/05,,219K,224K,226.0K,2.0
+2025-04-10 18:00:00+05:30,CA,Building Permits MoMFEB,,-3.2%,-0.8%,0.3%,3.0
+2025-04-10 18:00:00+05:30,US,Core Inflation Rate MoMMAR,,0.2%,0.3%,0.3%,1.0
+2025-04-10 18:00:00+05:30,US,Jobless Claims 4-week AverageAPR/05,,223K,,226.0K,3.0
+2025-04-10 18:00:00+05:30,US,Continuing Jobless ClaimsMAR/29,,1903K,,1915.0K,3.0
+>>>>>>> Stashed changes
 2025-04-10 19:00:00+05:30,US,Fed Logan Speech,,,,,2.0
 2025-04-10 20:00:00+05:30,US,EIA Natural Gas Stocks ChangeAPR/04,,29Bcf,,,3.0
 2025-04-10 20:30:00+05:30,MX,Monetary Policy Meeting Minutes,,,,,3.0
-2025-04-10 21:00:00+05:30,US,8-Week Bill Auction,,4.240%,,,3.0
 2025-04-10 21:00:00+05:30,US,4-Week Bill Auction,,4.240%,,,3.0
+<<<<<<< Updated upstream
 2025-04-10 21:30:00+05:30,CA,5-Year Bond Auction,,2.768%,,,3.0
 2025-04-10 21:30:00+05:30,EA,ECB Donnery Speech,,,,,3.0
 2025-04-10 21:30:00+05:30,US,15-Year Mortgage RateAPR/10,,5.82%,,,3.0
 2025-04-10 21:30:00+05:30,US,30-Year Mortgage RateAPR/10,,6.64%,,,3.0
 2025-04-10 21:30:00+05:30,US,WASDE Report,,,,,3.0
+=======
+2025-04-10 21:00:00+05:30,US,8-Week Bill Auction,,4.240%,,,3.0
+2025-04-10 21:30:00+05:30,US,30-Year Mortgage RateAPR/10,,6.64%,,,3.0
+2025-04-10 21:30:00+05:30,US,WASDE Report,,,,,3.0
+2025-04-10 21:30:00+05:30,US,15-Year Mortgage RateAPR/10,,5.82%,,,3.0
+2025-04-10 21:30:00+05:30,CA,5-Year Bond Auction,,2.768%,,,3.0
+2025-04-10 21:30:00+05:30,EA,ECB Donnery Speech,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-10 21:30:00+05:30,US,Fed Goolsbee Speech,,,,,2.0
 2025-04-10 22:30:00+05:30,US,30-Year Bond Auction,,4.623%,,,3.0
 2025-04-10 23:30:00+05:30,US,Monthly Budget StatementMAR,,$-307B,$-126.5B,$-315.6B,2.0
@@ -4643,14 +5029,24 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-11 02:00:00+05:30,US,Fed Balance SheetAPR/09,,$6.72T,,,3.0
 2025-04-11 09:05:00+05:30,JP,3-Month Bill Auction,,0.3870%,,,3.0
 2025-04-11 10:30:00+05:30,KR,50-Year KTB Auction,,2.440%,,,3.0
+<<<<<<< Updated upstream
 2025-04-11 11:30:00+05:30,GB,Manufacturing Production MoMFEB,,-1.1%,0.2%,0.3%,2.0
 2025-04-11 11:30:00+05:30,GB,Balance of TradeFEB,,£-0.596B,,£-1.1B,3.0
 2025-04-11 11:30:00+05:30,GB,Industrial Production YoYFEB,,-1.5%,,-1.6%,3.0
 2025-04-11 11:30:00+05:30,GB,GDP YoYFEB,,1%,,0.9%,3.0
 2025-04-11 11:30:00+05:30,GB,Manufacturing Production YoYFEB,,-1.5%,,-3.0%,3.0
 2025-04-11 11:30:00+05:30,GB,Construction Output YoYFEB,,0.2%,,1.5%,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-11 11:30:00+05:30,DE,Harmonised Inflation Rate MoM FinalMAR,,0.5%,0.4%,0.4%,3.0
+2025-04-11 11:30:00+05:30,DE,Harmonised Inflation Rate YoY FinalMAR,,2.6%,2.3%,2.3%,3.0
+2025-04-11 11:30:00+05:30,DE,Inflation Rate YoY FinalMAR,,2.3%,2.2%,2.2%,3.0
+2025-04-11 11:30:00+05:30,GB,GDP MoMFEB,,-0.1%,0.1%,0.1%,1.0
+2025-04-11 11:30:00+05:30,GB,GDP 3-Month AvgFEB,,0.2%,0.4%,0.4%,2.0
+2025-04-11 11:30:00+05:30,GB,Goods Trade BalanceFEB,,£-17.85B,£-17.8B,£-18.3B,2.0
+2025-04-11 11:30:00+05:30,GB,Goods Trade Balance Non-EUFEB,,£-7.07B,,£ -6.7B,2.0
 2025-04-11 11:30:00+05:30,GB,Industrial Production MoMFEB,,-0.9%,0.1%,0.3%,2.0
+<<<<<<< Updated upstream
 2025-04-11 11:30:00+05:30,GB,Goods Trade Balance Non-EUFEB,,£-7.07B,,£ -6.7B,2.0
 2025-04-11 11:30:00+05:30,GB,Goods Trade BalanceFEB,,£-17.85B,£-17.8B,£-18.3B,2.0
 2025-04-11 11:30:00+05:30,DE,Harmonised Inflation Rate YoY FinalMAR,,2.6%,2.3%,2.3%,3.0
@@ -4659,8 +5055,19 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-11 11:30:00+05:30,DE,Inflation Rate YoY FinalMAR,,2.3%,2.2%,2.2%,3.0
 2025-04-11 11:30:00+05:30,DE,Inflation Rate MoM FinalMAR,,0.4%,0.3%,0.3%,3.0
 2025-04-11 12:30:00+05:30,ES,Core Inflation Rate YoY FinalMAR,,2.2%,2%,2.0%,3.0
+=======
+2025-04-11 11:30:00+05:30,GB,Manufacturing Production MoMFEB,,-1.1%,0.2%,0.3%,2.0
+2025-04-11 11:30:00+05:30,GB,Balance of TradeFEB,,£-0.596B,,£-1.1B,3.0
+2025-04-11 11:30:00+05:30,GB,Construction Output YoYFEB,,0.2%,,1.5%,3.0
+2025-04-11 11:30:00+05:30,GB,GDP YoYFEB,,1%,,0.9%,3.0
+2025-04-11 11:30:00+05:30,GB,Industrial Production YoYFEB,,-1.5%,,-1.6%,3.0
+2025-04-11 11:30:00+05:30,GB,Manufacturing Production YoYFEB,,-1.5%,,-3.0%,3.0
+2025-04-11 11:30:00+05:30,DE,Inflation Rate MoM FinalMAR,,0.4%,0.3%,0.3%,3.0
+>>>>>>> Stashed changes
 2025-04-11 12:30:00+05:30,TR,Retail Sales YoYFEB,,12.5%,,9.0%,3.0
+2025-04-11 12:30:00+05:30,ES,Inflation Rate YoY FinalMAR,,3%,2.3%,2.3%,3.0
 2025-04-11 12:30:00+05:30,TR,Retail Sales MoMFEB,,2%,,0.1%,3.0
+<<<<<<< Updated upstream
 2025-04-11 12:30:00+05:30,ES,Inflation Rate YoY FinalMAR,,3%,2.3%,2.3%,3.0
 2025-04-11 12:30:00+05:30,ES,Harmonised Inflation Rate YoY FinalMAR,,2.9%,2.2%,2.2%,3.0
 2025-04-11 12:30:00+05:30,ES,Harmonised Inflation Rate MoM FinalMAR,,0.4%,0.7%,0.7%,3.0
@@ -4671,25 +5078,54 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-11 16:00:00+05:30,IN,Inflation Rate YoYMAR,,3.61%,,3.9%,2.0
 2025-04-11 16:00:00+05:30,IN,Manufacturing Production YoYFEB,,5.5%,,4.6%,2.0
 2025-04-11 16:00:00+05:30,IN,Inflation Rate MoMMAR,,-0.47%,,0.2%,3.0
+=======
+2025-04-11 12:30:00+05:30,ES,Harmonised Inflation Rate YoY FinalMAR,,2.9%,2.2%,2.2%,3.0
+2025-04-11 12:30:00+05:30,ES,Harmonised Inflation Rate MoM FinalMAR,,0.4%,0.7%,0.7%,3.0
+2025-04-11 12:30:00+05:30,ES,Core Inflation Rate YoY FinalMAR,,2.2%,2%,2.0%,3.0
+2025-04-11 12:30:00+05:30,ES,Inflation Rate MoM FinalMAR,,0.4%,0.1%,0.1%,3.0
+2025-04-11 14:40:00+05:30,IT,BTP Auction,,,,,3.0
+2025-04-11 15:15:00+05:30,EA,ECB President Lagarde Speech,,,,,2.0
+2025-04-11 16:00:00+05:30,IN,Manufacturing Production YoYFEB,,5.5%,,4.6%,2.0
+2025-04-11 16:00:00+05:30,IN,Inflation Rate MoMMAR,,-0.47%,,0.2%,3.0
+2025-04-11 16:00:00+05:30,IN,Industrial Production YoYFEB,,5%,,3.1%,2.0
+2025-04-11 16:00:00+05:30,IN,Inflation Rate YoYMAR,,3.61%,,3.9%,2.0
+>>>>>>> Stashed changes
 2025-04-11 16:55:00+05:30,GB,NIESR Monthly GDP TrackerMAR,,0.4%,,0.3%,3.0
 2025-04-11 17:00:00+05:30,IN,Bank Loan Growth YoYMAR/28,,11.1%,,,3.0
 2025-04-11 17:00:00+05:30,IN,Deposit Growth YoYMAR/28,,10.2%,,,3.0
 2025-04-11 17:00:00+05:30,IN,Foreign Exchange ReservesAPR/04,,$665.4B,,$ 690.3B,3.0
 2025-04-11 17:30:00+05:30,BR,Inflation Rate MoMMAR,,1.31%,,-0.4%,2.0
 2025-04-11 17:30:00+05:30,BR,Inflation Rate YoYMAR,,5.06%,,5.2%,2.0
+2025-04-11 17:30:00+05:30,BR,IBC-BR Economic ActivityFEB,,0.9%,,0.4%,3.0
+2025-04-11 17:30:00+05:30,MX,Industrial Production MoMFEB,,-0.4%,,-0.2%,3.0
 2025-04-11 17:30:00+05:30,MX,Industrial Production YoYFEB,,-2.9%,,-3.2%,3.0
+<<<<<<< Updated upstream
 2025-04-11 17:30:00+05:30,MX,Industrial Production MoMFEB,,-0.4%,,-0.2%,3.0
 2025-04-11 17:30:00+05:30,BR,IBC-BR Economic ActivityFEB,,0.9%,,0.4%,3.0
 2025-04-11 18:00:00+05:30,US,PPIMAR,,147.953,,148.1,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-11 18:00:00+05:30,US,PPI YoYMAR,,3.2%,3.3%,3.3%,3.0
 2025-04-11 18:00:00+05:30,US,"PPI Ex Food, Energy and Trade YoYMAR",,3.3%,,3.3%,3.0
 2025-04-11 18:00:00+05:30,US,Core PPI YoYMAR,,3.4%,3.6%,3.5%,3.0
 2025-04-11 18:00:00+05:30,US,"PPI Ex Food, Energy and Trade MoMMAR",,0.2%,,0.1%,3.0
+<<<<<<< Updated upstream
 2025-04-11 18:00:00+05:30,US,PPI MoMMAR,,0%,0.1%,0.1%,1.0
 2025-04-11 18:00:00+05:30,US,Core PPI MoMMAR,,-0.1%,0.3%,0.2%,2.0
+=======
+2025-04-11 18:00:00+05:30,US,PPIMAR,,147.953,,148.1,3.0
+2025-04-11 18:00:00+05:30,US,Core PPI YoYMAR,,3.4%,3.6%,3.5%,3.0
+2025-04-11 18:00:00+05:30,US,Core PPI MoMMAR,,-0.1%,0.3%,0.2%,2.0
+2025-04-11 18:00:00+05:30,US,PPI MoMMAR,,0%,0.1%,0.1%,1.0
+>>>>>>> Stashed changes
 2025-04-11 18:15:00+05:30,DE,Current AccountFEB,,€11.8B,,€15.9B,3.0
 2025-04-11 18:30:00+05:30,RU,Balance of TradeFEB,,$7.16B,,$9.0B,3.0
+<<<<<<< Updated upstream
 2025-04-11 18:30:00+05:30,RU,Current AccountQ1,,$4.8B,,$ 17.5B,3.0
+=======
+2025-04-11 19:30:00+05:30,US,Michigan Consumer Sentiment PrelAPR,,57.0,54.7,56.4,1.0
+2025-04-11 19:30:00+05:30,BR,Business ConfidenceAPR,,49.2,,49,2.0
+>>>>>>> Stashed changes
 2025-04-11 19:30:00+05:30,US,Michigan Inflation Expectations PrelAPR,,5%,,5%,3.0
 2025-04-11 19:30:00+05:30,BR,Business ConfidenceAPR,,49.2,,49,2.0
 2025-04-11 19:30:00+05:30,US,Michigan Consumer Sentiment PrelAPR,,57.0,54.7,56.4,1.0
@@ -4697,10 +5133,26 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-11 19:30:00+05:30,US,Michigan 5 Year Inflation Expectations PrelAPR,,4.1%,,4.1%,3.0
 2025-04-11 19:30:00+05:30,US,Michigan Current Conditions PrelAPR,,63.8,,63.4,3.0
 2025-04-11 19:30:00+05:30,US,Michigan Consumer Expectations PrelAPR,,52.6,,52.3,3.0
+<<<<<<< Updated upstream
+=======
+2025-04-11 19:30:00+05:30,US,Michigan 5 Year Inflation Expectations PrelAPR,,4.1%,,4.1%,3.0
+2025-04-11 19:30:00+05:30,US,Fed Musalem Speech,,,,,2.0
+>>>>>>> Stashed changes
 2025-04-11 20:30:00+05:30,US,Fed Williams Speech,,,,,2.0
-2025-04-11 21:30:00+05:30,RU,Inflation Rate YoYMAR,,10.1%,,10.5%,2.0
 2025-04-11 21:30:00+05:30,RU,Inflation Rate MoMMAR,,0.8%,,0.7%,2.0
+<<<<<<< Updated upstream
 2025-04-11 22:30:00+05:30,CN,M2 Money Supply YoYMAR,,7%,7%,7.1%,3.0
+=======
+2025-04-11 21:30:00+05:30,RU,Inflation Rate YoYMAR,,10.1%,,10.5%,2.0
+2025-04-11 22:30:00+05:30,US,Baker Hughes Oil Rig CountAPR/11,,489,,,3.0
+2025-04-11 22:30:00+05:30,US,Baker Hughes Total Rigs CountAPR/11,,590,,,3.0
+2025-04-11 22:30:00+05:30,EA,ECOFIN Meeting,,,,,3.0
+2025-04-11 22:30:00+05:30,EA,Eurogroup Meeting,,,,,3.0
+2025-04-11 22:30:00+05:30,ID,Car Sales YoYMAR,,2.2%,,,3.0
+2025-04-11 22:30:00+05:30,CN,Vehicle Sales YoYMAR,,34.4%,,12.0%,3.0
+2025-04-11 22:30:00+05:30,TR,Auto Production YoYMAR,,-13.4%,,-15.0%,3.0
+2025-04-11 22:30:00+05:30,ZA,SACCI Business ConfidenceFEB,,120,,118.5,3.0
+>>>>>>> Stashed changes
 2025-04-11 22:30:00+05:30,CN,New Yuan LoansMAR,,CNY1010B,CNY2350B,CNY4000.0B,3.0
 2025-04-11 22:30:00+05:30,TR,Auto Sales YoYMAR,,-14.4%,,-15.5%,3.0
 2025-04-11 22:30:00+05:30,CN,Outstanding Loan Growth YoYMAR,,7.3%,,7.8%,3.0
@@ -4713,6 +5165,7 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-11 22:30:00+05:30,EA,ECOFIN Meeting,,,,,3.0
 2025-04-11 22:30:00+05:30,US,Baker Hughes Total Rigs CountAPR/11,,590,,,3.0
 2025-04-11 22:30:00+05:30,ZA,SACCI Business ConfidenceMAR,,,,116,3.0
+<<<<<<< Updated upstream
 2025-04-11 22:30:00+05:30,ZA,SACCI Business ConfidenceFEB,,120,,118.5,3.0
 2025-04-12 00:30:00+05:30,AR,Inflation Rate MoMMAR,,2.4%,,3.0%,3.0
 2025-04-12 00:30:00+05:30,AR,Inflation Rate YoYMAR,,66.9%,,49.0%,3.0
@@ -4720,20 +5173,34 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-12 12:40:00+05:30,CN,Balance of TradeMAR,,$170.52B,,$ 84B,1.0
 2025-04-12 12:40:00+05:30,CN,Exports YoYMAR,,2.3%,,1.5%,1.0
 2025-04-14 05:30:00+05:30,SG,GDP Growth Rate YoY AdvQ1,,5.0%,,2.4%,3.0
+=======
+2025-04-11 22:30:00+05:30,CN,Total Social FinancingMAR,,CNY2290B,,CNY 4810B,3.0
+2025-04-11 22:30:00+05:30,TR,Auto Sales YoYMAR,,-14.4%,,-15.5%,3.0
+2025-04-11 22:30:00+05:30,CN,M2 Money Supply YoYMAR,,7%,7%,7.1%,3.0
+2025-04-11 22:30:00+05:30,CN,Outstanding Loan Growth YoYMAR,,7.3%,,7.8%,3.0
+2025-04-12 00:30:00+05:30,AR,Inflation Rate MoMMAR,,2.4%,,3.0%,3.0
+2025-04-12 00:30:00+05:30,AR,Inflation Rate YoYMAR,,66.9%,,49.0%,3.0
+2025-04-12 12:40:00+05:30,CN,Balance of TradeMAR,,$170.52B,,$ 84B,1.0
+2025-04-12 12:40:00+05:30,CN,Exports YoYMAR,,2.3%,,1.5%,1.0
+2025-04-12 12:40:00+05:30,CN,Imports YoYMAR,,-8.4%,,-1%,1.0
+>>>>>>> Stashed changes
 2025-04-14 05:30:00+05:30,SG,GDP Growth Rate QoQ AdvQ1,,0.5%,,1.1%,2.0
-2025-04-14 08:30:00+05:30,ID,Foreign Exchange ReservesMAR,,$154.5B,,$ 155.0B,3.0
+2025-04-14 05:30:00+05:30,SG,GDP Growth Rate YoY AdvQ1,,5.0%,,2.4%,3.0
 2025-04-14 08:30:00+05:30,ID,Consumer ConfidenceMAR,,126.4,,127.3,3.0
-2025-04-14 10:00:00+05:30,JP,Industrial Production YoY FinalFEB,,2.2%,,0.3%,3.0
+2025-04-14 08:30:00+05:30,ID,Foreign Exchange ReservesMAR,,$154.5B,,$ 155.0B,3.0
 2025-04-14 10:00:00+05:30,JP,Industrial Production MoM FinalFEB,,-1.1%,2.5%,2.5%,3.0
+2025-04-14 10:00:00+05:30,JP,Industrial Production YoY FinalFEB,,2.2%,,0.3%,3.0
 2025-04-14 10:00:00+05:30,JP,Capacity Utilization MoMFEB,,4.5%,,,3.0
 2025-04-14 10:30:00+05:30,KR,10-Year KTB Auction,,,,,3.0
 2025-04-14 12:00:00+05:30,IN,WPI Food Index YoYMAR,,5.94%,,5.0%,3.0
+2025-04-14 12:00:00+05:30,IN,WPI Fuel YoYMAR,,-0.71%,,-1.5%,3.0
 2025-04-14 12:00:00+05:30,IN,WPI Manufacturing YoYMAR,,2.86%,,3.2%,3.0
 2025-04-14 12:00:00+05:30,IN,WPI Fuel YoYMAR,,-0.71%,,-1.5%,3.0
 2025-04-14 12:30:00+05:30,TR,Current AccountFEB,,$-3.795B,,,3.0
 2025-04-14 15:00:00+05:30,DE,12-Month Bubill Auction,,,,,3.0
 2025-04-14 15:00:00+05:30,JP,Foreign Exchange ReservesMAR,,$1253.3B,,,3.0
 2025-04-14 15:00:00+05:30,OP,OPEC Monthly Report,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-14 18:00:00+05:30,CA,Wholesale Sales MoM FinalFEB,,1.2%,0.4%,0.4%,3.0
 2025-04-14 18:00:00+05:30,CA,New Motor Vehicle SalesFEB,,121.6K,,,3.0
 2025-04-14 18:00:00+05:30,OP,OPEC Monthly Report,,,,,3.0
@@ -4741,11 +5208,24 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-14 18:30:00+05:30,FR,3-Month BTF Auction,,2.212%,,,3.0
 2025-04-14 18:30:00+05:30,FR,12-Month BTF Auction,,1.996%,,,3.0
 2025-04-14 18:30:00+05:30,OP,OPEC Monthly Report,,,,,3.0
+=======
+2025-04-14 18:00:00+05:30,OP,OPEC Monthly Report,,,,,3.0
+2025-04-14 18:00:00+05:30,JP,Foreign Exchange ReservesMAR,,$1253.3B,,,3.0
+2025-04-14 18:00:00+05:30,CA,New Motor Vehicle SalesFEB,,121.6K,,,3.0
+2025-04-14 18:00:00+05:30,CA,Wholesale Sales MoM FinalFEB,,1.2%,0.4%,0.4%,3.0
+2025-04-14 18:30:00+05:30,FR,12-Month BTF Auction,,1.996%,,,3.0
+2025-04-14 18:30:00+05:30,OP,OPEC Monthly Report,,,,,3.0
+2025-04-14 18:30:00+05:30,FR,3-Month BTF Auction,,2.212%,,,3.0
+>>>>>>> Stashed changes
 2025-04-14 18:30:00+05:30,FR,6-Month BTF Auction,,2.092%,,,3.0
 2025-04-14 20:30:00+05:30,US,Consumer Inflation ExpectationsMAR,,3.1%,,3.3%,3.0
 2025-04-14 21:00:00+05:30,US,6-Month Bill Auction,,,,,3.0
 2025-04-14 21:00:00+05:30,OP,OPEC Monthly Report,,,,,3.0
 2025-04-14 21:00:00+05:30,US,3-Month Bill Auction,,,,,3.0
+<<<<<<< Updated upstream
+=======
+2025-04-14 21:00:00+05:30,US,6-Month Bill Auction,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-14 21:30:00+05:30,US,Fed Barkin Speech,,,,,2.0
 2025-04-14 21:30:00+05:30,OP,OPEC Monthly Report,,,,,2.0
 2025-04-15 04:31:00+05:30,GB,BRC Retail Sales Monitor YoYMAR,,,,1.9%,2.0
@@ -4755,13 +5235,14 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-15 09:05:00+05:30,JP,20-Year JGB Auction,,2.278%,,,3.0
 2025-04-15 10:30:00+05:30,SG,MAS 12-Week Bill Auction,,,,,3.0
 2025-04-15 10:30:00+05:30,SG,MAS 4-Week Bill Auction,,,,,3.0
+2025-04-15 11:30:00+05:30,GB,Unemployment RateFEB,,4.4%,,,1.0
 2025-04-15 11:30:00+05:30,DE,Wholesale Prices MoMMAR,,0.6%,,0.4%,2.0
 2025-04-15 11:30:00+05:30,DE,Wholesale Prices YoYMAR,,1.6%,,1.8%,2.0
-2025-04-15 11:30:00+05:30,GB,Unemployment RateFEB,,4.4%,,,1.0
 2025-04-15 11:30:00+05:30,GB,Average Earnings incl. Bonus (3Mo/Yr)FEB,,5.8%,,5.7%,2.0
 2025-04-15 11:30:00+05:30,GB,Employment ChangeFEB,,144K,,,2.0
 2025-04-15 11:30:00+05:30,GB,HMRC Payrolls ChangeMAR,,21K,,-35.0K,3.0
 2025-04-15 11:30:00+05:30,GB,Claimant Count ChangeMAR,,44.2K,,5K,3.0
+<<<<<<< Updated upstream
 2025-04-15 11:30:00+05:30,GB,Average Earnings excl. Bonus (3Mo/Yr)FEB,,5.9%,,5.8%,3.0
 2025-04-15 12:00:00+05:30,IN,WPI Inflation YoYMAR,,2.38%,,2.2%,3.0
 2025-04-15 12:00:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
@@ -4773,12 +5254,25 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-15 12:15:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
 2025-04-15 12:15:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
 2025-04-15 12:15:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+=======
+2025-04-15 12:00:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+2025-04-15 12:00:00+05:30,IN,WPI Inflation YoYMAR,,2.38%,,2.2%,3.0
+2025-04-15 12:00:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 12:00:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+2025-04-15 12:15:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+2025-04-15 12:15:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 12:15:00+05:30,FR,Inflation Rate MoM FinalMAR,,0%,,,3.0
+>>>>>>> Stashed changes
 2025-04-15 12:15:00+05:30,FR,Inflation Rate YoY FinalMAR,,0.8%,,,3.0
+2025-04-15 12:15:00+05:30,FR,Harmonised Inflation Rate YoY FinalMAR,,0.9%,0.9%,0.9%,3.0
+2025-04-15 12:15:00+05:30,FR,Harmonised Inflation Rate MoM FinalMAR,,0.1%,,,3.0
+2025-04-15 12:15:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
 2025-04-15 13:30:00+05:30,FR,IEA Oil Market Report,,,,,2.0
 2025-04-15 13:30:00+05:30,TR,Budget BalanceMAR,,,,,2.0
 2025-04-15 13:30:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,2.0
 2025-04-15 13:30:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,2.0
 2025-04-15 13:30:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,2.0
+<<<<<<< Updated upstream
 2025-04-15 14:30:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
 2025-04-15 14:30:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
 2025-04-15 14:30:00+05:30,TR,Budget BalanceMAR,,,,,3.0
@@ -4827,16 +5321,75 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-15 21:00:00+05:30,US,52-Week Bill Auction,,,,,3.0
 2025-04-15 21:00:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
 2025-04-15 21:00:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+=======
+2025-04-15 13:30:00+05:30,TR,Budget BalanceMAR,,,,,2.0
+2025-04-15 14:30:00+05:30,TR,Budget BalanceMAR,,,,,3.0
+2025-04-15 14:30:00+05:30,GB,10-Year Treasury Gilt Auction,,4.679%,,,3.0
+2025-04-15 14:30:00+05:30,DE,ZEW Current ConditionsAPR,,-87.6,,-86,3.0
+2025-04-15 14:30:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 14:30:00+05:30,EA,Industrial Production MoMFEB,,0.8%,,0.1%,2.0
+2025-04-15 14:30:00+05:30,EA,Industrial Production YoYFEB,,0%,,1.1%,3.0
+2025-04-15 14:30:00+05:30,DE,ZEW Economic Sentiment IndexAPR,,51.6,,45,1.0
+2025-04-15 14:30:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
+2025-04-15 14:30:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
+2025-04-15 14:30:00+05:30,EA,ZEW Economic Sentiment IndexAPR,,39.8,,34,2.0
+2025-04-15 14:30:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+2025-04-15 14:30:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
+2025-04-15 14:30:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+2025-04-15 15:00:00+05:30,TR,Budget BalanceMAR,,,,,3.0
+2025-04-15 15:00:00+05:30,ZA,Mining Production YoYFEB,,-2.7%,,,3.0
+2025-04-15 15:00:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+2025-04-15 15:00:00+05:30,ZA,Mining Production MoMFEB,,-1.2%,,2.0%,3.0
+2025-04-15 15:00:00+05:30,DE,5-Year Bobl Auction,,2.44%,,,3.0
+2025-04-15 15:00:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
+2025-04-15 15:00:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+2025-04-15 15:00:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
+2025-04-15 15:00:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 15:00:00+05:30,ZA,Gold Production YoYFEB,,1%,,-3.0%,3.0
+2025-04-15 15:00:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
+2025-04-15 17:45:00+05:30,CA,Housing StartsMAR,,229K,,220.0K,2.0
+2025-04-15 18:00:00+05:30,CA,Inflation Rate YoYMAR,,2.6%,,2.5%,1.0
+2025-04-15 18:00:00+05:30,CA,Core Inflation Rate YoYMAR,,2.7%,,2.3%,2.0
+2025-04-15 18:00:00+05:30,CA,Inflation Rate MoMMAR,,,,0.2%,2.0
+2025-04-15 18:00:00+05:30,CA,Core Inflation Rate MoMMAR,,0.7%,,0.1%,3.0
+2025-04-15 18:00:00+05:30,CA,CPI Trimmed-Mean YoYMAR,,2.9%,,2.8%,3.0
+2025-04-15 18:00:00+05:30,US,Export Prices MoMMAR,,0.1%,,1.1%,2.0
+2025-04-15 18:00:00+05:30,US,Import Prices MoMMAR,,0.4%,,1.9%,2.0
+2025-04-15 18:00:00+05:30,US,NY Empire State Manufacturing IndexAPR,,-20,,,2.0
+2025-04-15 18:00:00+05:30,CA,CPI Median YoYMAR,,2.9%,,3.0%,3.0
+2025-04-15 18:00:00+05:30,US,Export Prices YoYMAR,,2.1%,,3.1%,3.0
+2025-04-15 18:00:00+05:30,US,Import Prices YoYMAR,,2.0%,,3.4%,3.0
+2025-04-15 18:00:00+05:30,CA,Manufacturing Sales MoM FinalFEB,,1.7%,-0.2%,-0.2%,3.0
+2025-04-15 18:25:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
+2025-04-15 18:25:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 18:25:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
+2025-04-15 18:25:00+05:30,TR,Budget BalanceMAR,,,,,3.0
+2025-04-15 18:25:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+2025-04-15 18:25:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
+2025-04-15 18:25:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
+2025-04-15 18:25:00+05:30,US,Redbook YoYAPR/12,,,,,3.0
+2025-04-15 21:00:00+05:30,US,52-Week Bill Auction,,,,,3.0
+2025-04-15 21:00:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+>>>>>>> Stashed changes
 2025-04-15 21:00:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
 2025-04-15 21:00:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
 2025-04-15 21:00:00+05:30,TR,Budget BalanceMAR,,,,,3.0
 2025-04-15 21:00:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
 2025-04-15 21:00:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
+<<<<<<< Updated upstream
 2025-04-15 21:30:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
 2025-04-15 21:30:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
 2025-04-15 21:30:00+05:30,TR,Budget BalanceMAR,,,,,3.0
 2025-04-15 21:30:00+05:30,SA,Wholesale Prices YoYMAR,,1.5%,,2.2%,3.0
 2025-04-15 21:30:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
+=======
+2025-04-15 21:00:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
+2025-04-15 21:30:00+05:30,IN,Balance of TradeMAR,,$-14.05B,,$ -21B,3.0
+2025-04-15 21:30:00+05:30,IN,ImportsMAR,,$50.96B,,$ 58B,3.0
+2025-04-15 21:30:00+05:30,IN,ExportsMAR,,$36.91B,,$ 37B,3.0
+2025-04-15 21:30:00+05:30,TR,Budget BalanceMAR,,,,,3.0
+2025-04-15 21:30:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
+>>>>>>> Stashed changes
 2025-04-15 21:30:00+05:30,SA,Inflation Rate MoMMAR,,0.2%,,,3.0
 2025-04-15 21:30:00+05:30,US,NOPA Crush Report,,,,,3.0
 2025-04-15 21:30:00+05:30,SA,Inflation Rate YoYMAR,,2.0%,,1.9%,3.0
@@ -4848,16 +5401,28 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 05:20:00+05:30,JP,Machinery Orders YoYFEB,,,,,2.0
 2025-04-16 06:30:00+05:30,AU,Westpac Leading Index MoMMAR,,0.1%,,0.2%,3.0
 2025-04-16 07:00:00+05:30,CN,House Price Index YoYMAR,,-4.8%,,-4.4%,2.0
+<<<<<<< Updated upstream
 2025-04-16 07:30:00+05:30,CN,GDP Growth Rate QoQQ1,,1.6%,,0.9%,2.0
 2025-04-16 07:30:00+05:30,CN,Industrial Capacity UtilizationQ1,,76.2%,,74.6%,3.0
 2025-04-16 07:30:00+05:30,CN,Fixed Asset Investment (YTD) YoYMAR,,4.1%,,5.1%,2.0
 2025-04-16 07:30:00+05:30,CN,Unemployment RateMARCH,,5.4%,,5.20%,3.0
+=======
+2025-04-16 07:30:00+05:30,CN,Unemployment RateMARCH,,5.4%,,5.20%,3.0
+2025-04-16 07:30:00+05:30,CN,Industrial Capacity UtilizationQ1,,76.2%,,74.6%,3.0
+2025-04-16 07:30:00+05:30,CN,Fixed Asset Investment (YTD) YoYMAR,,4.1%,,5.1%,2.0
+2025-04-16 07:30:00+05:30,CN,GDP Growth Rate QoQQ1,,1.6%,,0.9%,2.0
+>>>>>>> Stashed changes
 2025-04-16 07:30:00+05:30,CN,Industrial Production YoYMAR,,5.9%,,5.4%,1.0
 2025-04-16 07:30:00+05:30,CN,GDP Growth Rate YoYQ1,,5.4%,,4.7%,1.0
 2025-04-16 07:30:00+05:30,CN,Retail Sales YoYMAR,,4%,,2%,1.0
 2025-04-16 10:30:00+05:30,SG,1-Year T-Bill Auction,,2.95%,,,3.0
+2025-04-16 11:30:00+05:30,GB,Retail Price Index YoYMAR,,3.4%,,3.1%,3.0
+2025-04-16 11:30:00+05:30,GB,Core Inflation Rate MoMMAR,,0.4%,,0.4%,3.0
+2025-04-16 11:30:00+05:30,GB,Inflation Rate MoMMAR,,0.4%,,0.4%,2.0
+2025-04-16 11:30:00+05:30,GB,Retail Price Index MoMMAR,,0.6%,,,3.0
 2025-04-16 11:30:00+05:30,GB,Inflation Rate YoYMAR,,2.8%,,3.2%,1.0
 2025-04-16 11:30:00+05:30,GB,Core Inflation Rate YoYMAR,,3.5%,,3.3%,2.0
+<<<<<<< Updated upstream
 2025-04-16 11:30:00+05:30,GB,Inflation Rate MoMMAR,,0.4%,,0.4%,2.0
 2025-04-16 11:30:00+05:30,GB,Core Inflation Rate MoMMAR,,0.4%,,0.4%,3.0
 2025-04-16 11:30:00+05:30,GB,Retail Price Index MoMMAR,,0.6%,,,3.0
@@ -4868,14 +5433,25 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 13:30:00+05:30,IT,Inflation Rate YoY FinalMAR,,1.6%,2%,2.0%,3.0
 2025-04-16 13:30:00+05:30,EA,Current AccountFEB,,€13.2B,,€19.5B,3.0
 2025-04-16 13:30:00+05:30,EA,Current Account s.aFEB,,€35.4B,,€32.0B,3.0
+=======
+2025-04-16 13:30:00+05:30,EA,Current AccountFEB,,€13.2B,,€19.5B,3.0
+2025-04-16 13:30:00+05:30,EA,Current Account s.aFEB,,€35.4B,,€32.0B,3.0
+2025-04-16 13:30:00+05:30,IT,Harmonised Inflation Rate MoM FinalMAR,,0.1%,1.6%,1.6%,3.0
+2025-04-16 13:30:00+05:30,IT,Harmonised Inflation Rate YoY FinalMAR,,1.7%,2.1%,2.1%,3.0
+2025-04-16 13:30:00+05:30,IT,Inflation Rate MoM FinalMAR,,0.2%,0.4%,0.4%,3.0
+2025-04-16 13:30:00+05:30,IT,Inflation Rate YoY FinalMAR,,1.6%,2%,2.0%,3.0
+2025-04-16 14:30:00+05:30,IT,Current AccountFEB,,€-3811M,,€1950.0M,3.0
+2025-04-16 14:30:00+05:30,EA,Inflation Rate YoY FinalMAR,,2.3%,2.2%,2.2%,3.0
+2025-04-16 14:30:00+05:30,EA,Inflation Rate MoM FinalMAR,,0.4%,,0.6%,3.0
+>>>>>>> Stashed changes
 2025-04-16 14:30:00+05:30,EA,Core Inflation Rate YoY FinalMAR,,2.6%,2.4%,2.4%,3.0
 2025-04-16 14:30:00+05:30,EA,CPI FinalMAR,,127.26,,128.04,3.0
-2025-04-16 14:30:00+05:30,EA,Inflation Rate MoM FinalMAR,,0.4%,,0.6%,3.0
-2025-04-16 14:30:00+05:30,EA,Inflation Rate YoY FinalMAR,,2.3%,2.2%,2.2%,3.0
-2025-04-16 14:30:00+05:30,IT,Current AccountFEB,,€-3811M,,€1950.0M,3.0
 2025-04-16 15:00:00+05:30,DE,30-Year Bund Auction,,3.04%,,,3.0
 2025-04-16 15:40:00+05:30,EU,6-Month Bill Auction,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-16 15:40:00+05:30,EU,3-Month Bill Auction,,,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-16 16:30:00+05:30,ZA,Retail Sales MoMFEB,,1.2%,,,3.0
 2025-04-16 16:30:00+05:30,ZA,Retail Sales YoYFEB,,,,,3.0
 2025-04-16 16:30:00+05:30,US,MBA 30-Year Mortgage RateAPR/11,,,,,2.0
@@ -4884,9 +5460,15 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 16:30:00+05:30,US,MBA Mortgage Refinance IndexAPR/11,,,,,3.0
 2025-04-16 16:30:00+05:30,US,MBA Purchase IndexAPR/11,,,,,3.0
 2025-04-16 17:00:00+05:30,IN,M3 Money Supply YoYAPR/04,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-16 18:00:00+05:30,US,Retail Sales Ex Gas/Autos MoMMAR,,0.5%,,0.3%,3.0
 2025-04-16 18:00:00+05:30,US,Retail Sales Ex Autos MoMMAR,,0.3%,,0.1%,2.0
 2025-04-16 18:00:00+05:30,US,Retail Sales YoYMAR,,3.1%,,2.6%,3.0
+=======
+2025-04-16 18:00:00+05:30,US,Retail Sales Ex Autos MoMMAR,,0.3%,,0.1%,2.0
+2025-04-16 18:00:00+05:30,US,Retail Sales YoYMAR,,3.1%,,2.6%,3.0
+2025-04-16 18:00:00+05:30,US,Retail Sales Ex Gas/Autos MoMMAR,,0.5%,,0.3%,3.0
+>>>>>>> Stashed changes
 2025-04-16 18:00:00+05:30,US,Retail Sales MoMMAR,,0.2%,,0.1%,1.0
 2025-04-16 18:00:00+05:30,US,Retail Sales Control Group MoMMAR,,,,,2.0
 2025-04-16 18:45:00+05:30,US,Industrial Production MoMMAR,,0.7%,,0.3%,2.0
@@ -4894,11 +5476,18 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 18:45:00+05:30,US,Industrial Production YoYMAR,,1.4%,,3.2%,3.0
 2025-04-16 18:45:00+05:30,US,Manufacturing Production MoMMAR,,0.9%,,,3.0
 2025-04-16 18:45:00+05:30,US,Manufacturing Production YoYMAR,,,,2.4%,3.0
+<<<<<<< Updated upstream
 2025-04-16 19:15:00+05:30,CA,BoC Monetary Policy Report,,,,,1.0
 2025-04-16 19:15:00+05:30,CA,BoC Interest Rate Decision,,2.75%,,2.75%,1.0
 2025-04-16 19:30:00+05:30,US,Business Inventories MoMFEB,,0.3%,,0.2%,2.0
+=======
+2025-04-16 19:15:00+05:30,CA,BoC Interest Rate Decision,,2.75%,,2.75%,1.0
+2025-04-16 19:15:00+05:30,CA,BoC Monetary Policy Report,,,,,1.0
+>>>>>>> Stashed changes
 2025-04-16 19:30:00+05:30,US,NAHB Housing Market IndexAPR,,,,,2.0
+2025-04-16 19:30:00+05:30,US,Business Inventories MoMFEB,,0.3%,,0.2%,2.0
 2025-04-16 19:30:00+05:30,US,Retail Inventories Ex Autos MoMFEB,,0.5%,,,3.0
+<<<<<<< Updated upstream
 2025-04-16 20:00:00+05:30,US,EIA Heating Oil Stocks ChangeAPR/11,,,,,3.0
 2025-04-16 20:00:00+05:30,US,EIA Distillate Fuel Production ChangeAPR/11,,,,,3.0
 2025-04-16 20:00:00+05:30,US,EIA Gasoline Production ChangeAPR/11,,,,,3.0
@@ -4909,44 +5498,73 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 20:00:00+05:30,US,EIA Crude Oil Stocks ChangeAPR/11,,,,,2.0
 2025-04-16 20:00:00+05:30,CA,BoC Press Conference,,,,,2.0
 2025-04-16 20:00:00+05:30,US,EIA Crude Oil Imports ChangeAPR/11,,,,,3.0
+=======
+2025-04-16 20:00:00+05:30,US,EIA Gasoline Production ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,US,EIA Distillate Stocks ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,US,EIA Heating Oil Stocks ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,US,EIA Refinery Crude Runs ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,US,EIA Distillate Fuel Production ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,CA,BoC Press Conference,,,,,2.0
+2025-04-16 20:00:00+05:30,US,EIA Crude Oil Imports ChangeAPR/11,,,,,3.0
+2025-04-16 20:00:00+05:30,US,EIA Gasoline Stocks ChangeAPR/11,,,,,2.0
+2025-04-16 20:00:00+05:30,US,EIA Crude Oil Stocks ChangeAPR/11,,,,,2.0
+2025-04-16 20:00:00+05:30,US,EIA Cushing Crude Oil Stocks ChangeAPR/11,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-16 21:00:00+05:30,US,17-Week Bill Auction,,,,,3.0
 2025-04-16 21:30:00+05:30,RU,PPI MoMMAR,,,,0.6%,3.0
 2025-04-16 21:30:00+05:30,RU,PPI YoYMAR,,9.8%,,11.1%,3.0
 2025-04-16 22:30:00+05:30,AR,Leading Indicator MoMMAR,,2.31%,,1.6%,3.0
 2025-04-16 22:30:00+05:30,US,20-Year Bond Auction,,,,,3.0
 2025-04-17 00:30:00+05:30,AR,Balance of TradeMAR,,$227M,,$ 900M,3.0
-2025-04-17 01:30:00+05:30,US,Net Long-term TIC FlowsFEB,,,,,2.0
-2025-04-17 01:30:00+05:30,US,Foreign Bond InvestmentFEB,,,,,3.0
 2025-04-17 01:30:00+05:30,US,Overall Net Capital FlowsFEB,,$-48.8B,,,3.0
+<<<<<<< Updated upstream
 2025-04-17 05:20:00+05:30,JP,Imports YoYMAR,,-0.7%,,,3.0
 2025-04-17 05:20:00+05:30,JP,Stock Investment by ForeignersAPR/12,,,,,3.0
 2025-04-17 05:20:00+05:30,JP,Foreign Bond InvestmentAPR/12,,,,,3.0
 2025-04-17 05:20:00+05:30,JP,Balance of TradeMAR,,¥584.5B,,¥ -1100B,1.0
 2025-04-17 05:20:00+05:30,JP,Exports YoYMAR,,11.4%,,,2.0
+=======
+2025-04-17 01:30:00+05:30,US,Foreign Bond InvestmentFEB,,,,,3.0
+2025-04-17 01:30:00+05:30,US,Net Long-term TIC FlowsFEB,,,,,2.0
+2025-04-17 05:20:00+05:30,JP,Balance of TradeMAR,,¥584.5B,,¥ -1100B,1.0
+2025-04-17 05:20:00+05:30,JP,Exports YoYMAR,,11.4%,,,2.0
+2025-04-17 05:20:00+05:30,JP,Foreign Bond InvestmentAPR/12,,,,,3.0
+2025-04-17 05:20:00+05:30,JP,Imports YoYMAR,,-0.7%,,,3.0
+2025-04-17 05:20:00+05:30,JP,Stock Investment by ForeignersAPR/12,,,,,3.0
+>>>>>>> Stashed changes
 2025-04-17 06:00:00+05:30,SG,Non-Oil Exports MoMMAR,,2.6%,,8.5%,3.0
 2025-04-17 06:00:00+05:30,SG,Non-Oil Exports YoYMAR,,7.6%,,4.5%,3.0
 2025-04-17 06:30:00+05:30,SG,Balance of TradeMAR,,$6.16B,,$ 5.7B,3.0
 2025-04-17 06:30:00+05:30,KR,Interest Rate Decision,,2.75%,,,2.0
+2025-04-17 07:00:00+05:30,AU,Unemployment RateMAR,,4.1%,,4.1%,2.0
+2025-04-17 07:00:00+05:30,AU,Participation RateMAR,,66.8%,,67.0%,3.0
 2025-04-17 07:00:00+05:30,AU,Employment ChangeMAR,,-52.8K,,51.0K,2.0
 2025-04-17 07:00:00+05:30,AU,Full Time Employment ChgMAR,,-35.7K,,,2.0
-2025-04-17 07:00:00+05:30,AU,Unemployment RateMAR,,4.1%,,4.1%,2.0
 2025-04-17 07:00:00+05:30,AU,Part Time Employment ChgMAR,,-17.1K,,,3.0
-2025-04-17 07:00:00+05:30,AU,Participation RateMAR,,66.8%,,67.0%,3.0
 2025-04-17 09:05:00+05:30,JP,52-Week Bill Auction,,0.6184%,,,3.0
 2025-04-17 11:30:00+05:30,DE,PPI MoMMAR,,-0.2%,,0.3%,3.0
 2025-04-17 11:30:00+05:30,DE,PPI YoYMAR,,0.7%,,0.8%,2.0
 2025-04-17 14:30:00+05:30,FR,OAT Auction,,,,,3.0
 2025-04-17 15:30:00+05:30,FR,OATi Auction,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-17 15:30:00+05:30,FR,Index-Linked OAT Auction,,,,,3.0
 2025-04-17 16:30:00+05:30,CA,CFIB Business BarometerAPR,,25.0,,,3.0
 2025-04-17 16:30:00+05:30,ZA,Building Permits YoYFEB,,31.8%,,,3.0
 2025-04-17 16:30:00+05:30,TR,TCMB Interest Rate Decision,,42.5%,,40.0%,2.0
 2025-04-17 16:30:00+05:30,TR,Overnight Borrowing RateAPR,,,,,3.0
 2025-04-17 16:30:00+05:30,TR,Overnight Lending RateAPR,,46%,,,3.0
+=======
+2025-04-17 16:30:00+05:30,TR,Overnight Lending RateAPR,,46%,,,3.0
+2025-04-17 16:30:00+05:30,TR,Overnight Borrowing RateAPR,,,,,3.0
+2025-04-17 16:30:00+05:30,TR,TCMB Interest Rate Decision,,42.5%,,40.0%,2.0
+2025-04-17 16:30:00+05:30,CA,CFIB Business BarometerAPR,,25.0,,,3.0
+2025-04-17 16:30:00+05:30,ZA,Building Permits YoYFEB,,31.8%,,,3.0
+>>>>>>> Stashed changes
 2025-04-17 17:00:00+05:30,TR,Foreign Exchange ReservesAPR/11,,,,,3.0
 2025-04-17 17:45:00+05:30,EA,Deposit Facility Rate,,2.5%,,2.25%,1.0
 2025-04-17 17:45:00+05:30,EA,ECB Interest Rate Decision,,2.65%,,2.40%,1.0
 2025-04-17 17:45:00+05:30,EA,Marginal Lending Rate,,2.9%,,2.65%,3.0
+<<<<<<< Updated upstream
 2025-04-17 18:00:00+05:30,US,Jobless Claims 4-week AverageAPR/12,,,,,3.0
 2025-04-17 18:00:00+05:30,US,Philly Fed Business ConditionsAPR,,,,,3.0
 2025-04-17 18:00:00+05:30,US,Philly Fed New OrdersAPR,,,,,3.0
@@ -4955,11 +5573,25 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-17 18:00:00+05:30,US,Philly Fed CAPEX IndexAPR,,,,,3.0
 2025-04-17 18:00:00+05:30,US,Philadelphia Fed Manufacturing IndexAPR,,12.5,,,2.0
 2025-04-17 18:00:00+05:30,US,Philly Fed Prices PaidAPR,,,,,3.0
+=======
+2025-04-17 18:00:00+05:30,US,Philly Fed Business ConditionsAPR,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Jobless Claims 4-week AverageAPR/12,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Philly Fed CAPEX IndexAPR,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Philly Fed Prices PaidAPR,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Philly Fed New OrdersAPR,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Continuing Jobless ClaimsAPR/05,,,,1950K,3.0
+2025-04-17 18:00:00+05:30,US,Philly Fed EmploymentAPR,,,,,3.0
+2025-04-17 18:00:00+05:30,US,Philadelphia Fed Manufacturing IndexAPR,,12.5,,,2.0
+2025-04-17 18:00:00+05:30,CA,Foreign Securities PurchasesFEB,,C$7.91B,,,3.0
+>>>>>>> Stashed changes
 2025-04-17 18:00:00+05:30,US,Housing Starts MoMMAR,,11.2%,,-5.3%,2.0
 2025-04-17 18:00:00+05:30,US,Building Permits MoM PrelMAR,,-1%,,,2.0
 2025-04-17 18:00:00+05:30,US,Housing StartsMAR,,1.501M,,1.42M,1.0
 2025-04-17 18:00:00+05:30,US,Building Permits PrelMAR,,1.459M,,1.4M,1.0
 2025-04-17 18:00:00+05:30,CA,Foreign Securities Purchases by CanadiansFEB,,,,,3.0
+<<<<<<< Updated upstream
 2025-04-17 18:00:00+05:30,CA,Foreign Securities PurchasesFEB,,C$7.91B,,,3.0
+=======
+>>>>>>> Stashed changes
 2025-04-17 18:00:00+05:30,US,Initial Jobless ClaimsAPR/12,,,,,2.0
 2025-04-17 18:15:00+05:30,EA,ECB Press Conference,,,,,1.0
