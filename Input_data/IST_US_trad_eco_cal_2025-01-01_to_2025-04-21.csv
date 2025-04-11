@@ -1672,7 +1672,7 @@ DATETIME,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-16 22:30:00+05:30,20-Year Bond Auction,,4.632%,,,3.0
 2025-04-16 23:00:00+05:30,Fed Chair Powell Speech,,,,,2.0
 2025-04-16 23:00:00+05:30,Fed Chair Powell Speech,,,,,2.0
-2025-04-17 01:30:00+05:30,Net Long-term TIC FlowsFEB,,$-45.2B,,,2.0
+2025-04-17 01:30:00+05:30,Net Long-term TIC FlowsFEB,,$-45.2B,$35.2B,,2.0
 2025-04-17 01:30:00+05:30,Overall Net Capital FlowsFEB,,$-48.8B,,,3.0
 2025-04-17 01:30:00+05:30,Net Long-term TIC FlowsFEB,,$-45.2B,,,2.0
 2025-04-17 01:30:00+05:30,Overall Net Capital FlowsFEB,,$-48.8B,,,3.0
@@ -1700,8 +1700,8 @@ DATETIME,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-17 18:00:00+05:30,Philly Fed Business ConditionsAPR,,5.6,,,3.0
 2025-04-17 18:00:00+05:30,Jobless Claims 4-week AverageAPR/12,,223K,,227.0K,3.0
 2025-04-17 18:00:00+05:30,Continuing Jobless ClaimsAPR/05,,1850K,,1890.0K,3.0
-2025-04-17 18:00:00+05:30,Philadelphia Fed Manufacturing IndexAPR,,12.5,,10,2.0
-2025-04-17 18:00:00+05:30,Initial Jobless ClaimsAPR/12,,223K,,227.0K,2.0
+2025-04-17 18:00:00+05:30,Philadelphia Fed Manufacturing IndexAPR,,12.5,6.8,10,2.0
+2025-04-17 18:00:00+05:30,Initial Jobless ClaimsAPR/12,,223K,224K,227.0K,2.0
 2025-04-17 18:00:00+05:30,Housing Starts MoMMAR,,11.2%,,-5.3%,2.0
 2025-04-17 18:00:00+05:30,Building Permits MoM PrelMAR,,-1%,,-4%,2.0
 2025-04-17 18:00:00+05:30,Building Permits PrelMAR,,1.459M,1.46M,1.4M,1.0
