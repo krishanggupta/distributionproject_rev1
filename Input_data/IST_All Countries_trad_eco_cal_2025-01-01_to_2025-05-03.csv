@@ -5327,7 +5327,11 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-04-24 18:30:00+05:30,EA,ECB Lane Speech,,,,,3.0
 2025-04-24 19:30:00+05:30,US,Existing Home Sales MoMMAR,-5.9%,4.4%,-3%,-1.9%,2.0
 2025-04-24 19:30:00+05:30,US,Existing Home SalesMAR,4.02M,4.27M,4.13M,4.18M,1.0
+<<<<<<< Updated upstream
 2025-04-24 20:00:00+05:30,US,EIA Natural Gas Stocks ChangeAPR/18,,16Bcf,65Bcf,,3.0
+=======
+2025-04-24 20:00:00+05:30,US,EIA Natural Gas Stocks ChangeAPR/18,88Bcf,16Bcf,65Bcf,,3.0
+>>>>>>> Stashed changes
 2025-04-24 20:30:00+05:30,US,Kansas Fed Composite IndexAPR,,-2,,-4,3.0
 2025-04-24 20:30:00+05:30,US,Kansas Fed Manufacturing IndexAPR,,1,,-2,3.0
 2025-04-24 20:35:00+05:30,EA,ECB Montagner Speech,,,,,3.0
@@ -5731,7 +5735,11 @@ DATETIME,COUNTRY,EVENTS,ACTUAL,PREVIOUS,CONSENSUS,FORECAST,TIER
 2025-05-01 20:00:00+05:30,ZA,Total New Vehicle SalesAPR,,49.493K,,48.5K,3.0
 2025-05-01 20:00:00+05:30,MX,Fiscal BalanceMAR,,MXN-114.23B,,,3.0
 2025-05-01 20:00:00+05:30,AR,Tax RevenueMAR,,ARS12733B,,,3.0
+<<<<<<< Updated upstream
 2025-05-01 20:00:00+05:30,US,EIA Natural Gas Stocks ChangeAPR/25,,,,,3.0
+=======
+2025-05-01 20:00:00+05:30,US,EIA Natural Gas Stocks ChangeAPR/25,,88Bcf,,,3.0
+>>>>>>> Stashed changes
 2025-05-01 21:00:00+05:30,MX,Fiscal BalanceMAR,,MXN-114.23B,,,3.0
 2025-05-01 21:00:00+05:30,ZA,Total New Vehicle SalesAPR,,49.493K,,48.5K,3.0
 2025-05-01 21:00:00+05:30,US,8-Week Bill Auction,,,,,3.0
