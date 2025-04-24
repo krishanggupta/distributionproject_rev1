@@ -1,7 +1,7 @@
 Volatility of Returns Statistic,"(Session:Asia 18-24 ET, Interval:1m, Symbol:ZB)"
 count,111.0
-mean,7.423423423423423
-std,7.194757623751982
+mean,7.427927927927928
+std,7.193698898988187
 min,2.5
 10%,3.0
 25%,4.0
@@ -10,5 +10,5 @@ min,2.5
 95%,16.75
 99%,47.70000000000013
 max,51.0
-skewness,4.322412638296857
-kurtosis,22.579304320973176
+skewness,4.322513605963493
+kurtosis,22.58315089448781
